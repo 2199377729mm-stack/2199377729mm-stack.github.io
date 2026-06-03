@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>按属性浏览 - 宝可梦档案馆</title>
+    <link rel="stylesheet" href="../assets/css/common.css">
+    <link rel="stylesheet" href="../assets/css/browse.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <span>🎮</span>
+                <span>宝可梦档案馆</span>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="../index.html">首页</a></li>
+                    <li><a href="generation.html">世代</a></li>
+                    <li><a href="type.html">属性</a></li>
+                    <li><a href="category.html">分类</a></li>
+                    <li><a href="../user/collection.html">我的收藏</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <h1>按属性浏览</h1>
+            
+            <div class="browse-nav">
+                <a href="generation.html" class="browse-link">世代</a>
+                <a href="type.html" class="browse-link active">属性</a>
+                <a href="category.html" class="browse-link">分类</a>
+            </div>
+            
+            <div id="search-container" class="search-container"></div>
+            
+            <div id="type-grid" class="type-grid">
+            </div>
+            
+            <div id="pokemon-list" style="display: none;">
+                <button class="btn btn-secondary" id="back-btn" style="margin-bottom: 20px;">← 返回</button>
+                <h2 id="current-type-title"></h2>
+                <div id="pokemon-grid" class="pokemon-grid"></div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>© 2026 宝可梦档案馆 | <a href="../about/index.html">关于</a> | <a href="../help/guide.html">帮助</a></p>
+        </div>
+    </footer>
+
+    <script src="../assets/js/modules/dataLoader.js?v=7"></script>
+    <script src="../assets/js/modules/imageHelper.js?v=7"></script>
+    <script src="../assets/js/modules/collectionManager.js?v=7"></script>
+    <script src="../assets/js/modules/searchModule.js?v=7"></script>
+    <script src="../assets/js/modules/render.js?v=7"></script>
+    <script src="../assets/js/type.js?v=7"></script>
+</body>
+</html>

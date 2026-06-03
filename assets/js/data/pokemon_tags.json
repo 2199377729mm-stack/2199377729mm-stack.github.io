@@ -1,0 +1,8507 @@
+{
+  "Abomasnow": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Mega Abomasnow": {
+    "battle": 0.7,
+    "collector": 0.5,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Abra": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Absol": {
+    "battle": 0.4,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Mega Absol": {
+    "battle": 0.7,
+    "collector": 0.5,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Accelgor": {
+    "battle": 0.4,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Aegislash Shield Forme": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Aegislash Blade Forme": {
+    "battle": 0.4,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Aerodactyl": {
+    "battle": 0.7,
+    "collector": 0.2,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Mega Aerodactyl": {
+    "battle": 0.7,
+    "collector": 0.5,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Aggron": {
+    "battle": 0.7,
+    "collector": 0.2,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Mega Aggron": {
+    "battle": 0.7,
+    "collector": 0.5,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Aipom": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Alakazam": {
+    "battle": 0.4,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Mega Alakazam": {
+    "battle": 0.7,
+    "collector": 0.5,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Alcremie": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Alomomola": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Altaria": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Mega Altaria": {
+    "battle": 0.7,
+    "collector": 0.5,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Amaura": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Ambipom": {
+    "battle": 0.4,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Amoonguss": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Ampharos": {
+    "battle": 0.3,
+    "collector": 0.2,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Mega Ampharos": {
+    "battle": 0.7,
+    "collector": 0.5,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Annihilape": {
+    "battle": 0.7,
+    "collector": 0.2,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Anorith": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Appletun": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Applin": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0.2
+  },
+  "Araquanid": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Arbok": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Arboliva": {
+    "battle": 0.7,
+    "collector": 0.2,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Arcanine": {
+    "battle": 0.7,
+    "collector": 0.7,
+    "breeder": 0.2,
+    "story": 0.3,
+    "popular": 0
+  },
+  "Hisuian Arcanine": {
+    "battle": 0.7,
+    "collector": 1.0,
+    "breeder": 0.2,
+    "story": 0.3,
+    "popular": 0
+  },
+  "Arceus": {
+    "battle": 0.7,
+    "collector": 0.2,
+    "breeder": 0,
+    "story": 0,
+    "popular": 0
+  },
+  "Archaludon": {
+    "battle": 0.7,
+    "collector": 0.2,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Archen": {
+    "battle": 0.4,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Archeops": {
+    "battle": 0.7,
+    "collector": 0.2,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Arctibax": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Arctovish": {
+    "battle": 0.3,
+    "collector": 0.2,
+    "breeder": 0,
+    "story": 0,
+    "popular": 0
+  },
+  "Arctozolt": {
+    "battle": 0.3,
+    "collector": 0.2,
+    "breeder": 0,
+    "story": 0,
+    "popular": 0
+  },
+  "Ariados": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Armaldo": {
+    "battle": 0.4,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Armarouge": {
+    "battle": 0.7,
+    "collector": 0.2,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Aromatisse": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Aron": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Arrokuda": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0.2
+  },
+  "Articuno": {
+    "battle": 0.3,
+    "collector": 0.2,
+    "breeder": 0,
+    "story": 0,
+    "popular": 0
+  },
+  "Galarian Articuno": {
+    "battle": 0.7,
+    "collector": 0.5,
+    "breeder": 0,
+    "story": 0,
+    "popular": 0
+  },
+  "Audino": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Mega Audino": {
+    "battle": 0.3,
+    "collector": 0.5,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Aurorus": {
+    "battle": 0.3,
+    "collector": 0.2,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Avalugg": {
+    "battle": 0.7,
+    "collector": 0.2,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Hisuian Avalugg": {
+    "battle": 0.7,
+    "collector": 0.5,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Axew": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Azelf": {
+    "battle": 0.7,
+    "collector": 0.2,
+    "breeder": 0,
+    "story": 0,
+    "popular": 0
+  },
+  "Azumarill": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Azurill": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0,
+    "story": 0,
+    "popular": 0.2
+  },
+  "Bagon": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Baltoy": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Banette": {
+    "battle": 0.4,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Mega Banette": {
+    "battle": 0.7,
+    "collector": 0.5,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Barbaracle": {
+    "battle": 0.4,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Barboach": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0.2
+  },
+  "Barraskewda": {
+    "battle": 0.4,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Basculegion Male": {
+    "battle": 0.7,
+    "collector": 0.2,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Basculegion Female": {
+    "battle": 0.3,
+    "collector": 0.2,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Basculin Red-Striped Form": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Basculin Blue-Striped Form": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Basculin White-Striped Form": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Bastiodon": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Baxcalibur": {
+    "battle": 0.7,
+    "collector": 0.2,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Bayleef": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Beartic": {
+    "battle": 0.7,
+    "collector": 0.2,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Beautifly": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Beedrill": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Mega Beedrill": {
+    "battle": 0.4,
+    "collector": 0.3,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Beheeyem": {
+    "battle": 0.4,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Beldum": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Bellibolt": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Bellossom": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Bellsprout": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Bergmite": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Bewear": {
+    "battle": 0.4,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Bibarel": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Bidoof": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0.2
+  },
+  "Binacle": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Bisharp": {
+    "battle": 0.4,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Blacephalon": {
+    "battle": 0.7,
+    "collector": 0.2,
+    "breeder": 0,
+    "story": 0,
+    "popular": 0
+  },
+  "Blastoise": {
+    "battle": 0.3,
+    "collector": 0.2,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Mega Blastoise": {
+    "battle": 0.7,
+    "collector": 0.5,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Blaziken": {
+    "battle": 0.7,
+    "collector": 0.2,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Mega Blaziken": {
+    "battle": 0.7,
+    "collector": 0.5,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Blipbug": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0.2
+  },
+  "Blissey": {
+    "battle": 0.3,
+    "collector": 0.2,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Blitzle": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0.2
+  },
+  "Boldore": {
+    "battle": 0.4,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Boltund": {
+    "battle": 0.4,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Bombirdier": {
+    "battle": 0.4,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Bonsly": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0,
+    "story": 0,
+    "popular": 0.2
+  },
+  "Bouffalant": {
+    "battle": 0.4,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Bounsweet": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0.2
+  },
+  "Braixen": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Brambleghast": {
+    "battle": 0.4,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Bramblin": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0.2
+  },
+  "Braviary": {
+    "battle": 0.7,
+    "collector": 0.2,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Hisuian Braviary": {
+    "battle": 0.3,
+    "collector": 0.5,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Breloom": {
+    "battle": 0.4,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Brionne": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Bronzong": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Bronzor": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Brute Bonnet": {
+    "battle": 0.7,
+    "collector": 0.2,
+    "breeder": 0,
+    "story": 0,
+    "popular": 0
+  },
+  "Bruxish": {
+    "battle": 0.4,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Budew": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0,
+    "story": 0,
+    "popular": 0.2
+  },
+  "Buizel": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Bulbasaur": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0.4
+  },
+  "Buneary": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Bunnelby": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0.2
+  },
+  "Burmy Plant Cloak": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0.2
+  },
+  "Burmy Sandy Cloak": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0.2
+  },
+  "Burmy Trash Cloak": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0.2
+  },
+  "Butterfree": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Buzzwole": {
+    "battle": 0.7,
+    "collector": 0.2,
+    "breeder": 0,
+    "story": 0,
+    "popular": 0
+  },
+  "Cacnea": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Cacturne": {
+    "battle": 0.4,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Calyrex": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0,
+    "story": 0,
+    "popular": 0
+  },
+  "Calyrex Ice Rider": {
+    "battle": 0.7,
+    "collector": 0.2,
+    "breeder": 0,
+    "story": 0,
+    "popular": 0
+  },
+  "Calyrex Shadow Rider": {
+    "battle": 0.7,
+    "collector": 0.2,
+    "breeder": 0,
+    "story": 0,
+    "popular": 0
+  },
+  "Camerupt": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Mega Camerupt": {
+    "battle": 0.7,
+    "collector": 0.5,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Capsakid": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Carbink": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Carkol": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Carnivine": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Carracosta": {
+    "battle": 0.4,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Carvanha": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Cascoon": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0.2
+  },
+  "Castform": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Castform Sunny Form": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Castform Rainy Form": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Castform Snowy Form": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Caterpie": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0.2
+  },
+  "Celebi": {
+    "battle": 0.3,
+    "collector": 0.2,
+    "breeder": 0,
+    "story": 0,
+    "popular": 0
+  },
+  "Celesteela": {
+    "battle": 0.7,
+    "collector": 0.2,
+    "breeder": 0,
+    "story": 0,
+    "popular": 0
+  },
+  "Centiskorch": {
+    "battle": 0.7,
+    "collector": 0.2,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Ceruledge": {
+    "battle": 0.7,
+    "collector": 0.2,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Cetitan": {
+    "battle": 0.7,
+    "collector": 0.2,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Cetoddle": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Chandelure": {
+    "battle": 0.7,
+    "collector": 0.2,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Chansey": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Charcadet": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0.2
+  },
+  "Charizard": {
+    "battle": 0.3,
+    "collector": 0.2,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0.4
+  },
+  "Mega Charizard X": {
+    "battle": 0.7,
+    "collector": 0.5,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0.4
+  },
+  "Mega Charizard Y": {
+    "battle": 0.7,
+    "collector": 0.5,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0.4
+  },
+  "Charjabug": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Charmander": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Charmeleon": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Chatot": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Cherrim": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Cherubi": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0.2
+  },
+  "Chesnaught": {
+    "battle": 0.7,
+    "collector": 0.2,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Chespin": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Chewtle": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0.2
+  },
+  "Chi-Yu": {
+    "battle": 0.7,
+    "collector": 0.2,
+    "breeder": 0,
+    "story": 0,
+    "popular": 0
+  },
+  "Chien-Pao": {
+    "battle": 0.7,
+    "collector": 0.2,
+    "breeder": 0,
+    "story": 0,
+    "popular": 0
+  },
+  "Chikorita": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Chimchar": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Chimecho": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Chinchou": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Chingling": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0,
+    "story": 0,
+    "popular": 0.2
+  },
+  "Cinccino": {
+    "battle": 0.4,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Cinderace": {
+    "battle": 0.7,
+    "collector": 0.2,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Clamperl": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Clauncher": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Clawitzer": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Claydol": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Clefable": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Clefairy": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Cleffa": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0,
+    "story": 0,
+    "popular": 0.2
+  },
+  "Clobbopus": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Clodsire": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Cloyster": {
+    "battle": 0.3,
+    "collector": 0.2,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Coalossal": {
+    "battle": 0.3,
+    "collector": 0.2,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Cobalion": {
+    "battle": 0.7,
+    "collector": 0.2,
+    "breeder": 0,
+    "story": 0,
+    "popular": 0
+  },
+  "Cofagrigus": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Combee": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0.2
+  },
+  "Combusken": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Comfey": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Conkeldurr": {
+    "battle": 0.7,
+    "collector": 0.2,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Copperajah": {
+    "battle": 0.4,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Corphish": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Corsola": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Galarian Corsola": {
+    "battle": 0,
+    "collector": 0.3,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Corviknight": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Corvisquire": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Cosmoem": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0,
+    "story": 0,
+    "popular": 0
+  },
+  "Cosmog": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0,
+    "story": 0,
+    "popular": 0.2
+  },
+  "Cottonee": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0.2
+  },
+  "Crabominable": {
+    "battle": 0.4,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Crabrawler": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Cradily": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Cramorant": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Cranidos": {
+    "battle": 0.4,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Crawdaunt": {
+    "battle": 0.4,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Cresselia": {
+    "battle": 0.3,
+    "collector": 0.2,
+    "breeder": 0,
+    "story": 0,
+    "popular": 0
+  },
+  "Croagunk": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Crobat": {
+    "battle": 0.7,
+    "collector": 0.2,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Crocalor": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Croconaw": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Crustle": {
+    "battle": 0.4,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Cryogonal": {
+    "battle": 0.7,
+    "collector": 0.2,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Cubchoo": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Cubone": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Cufant": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Cursola": {
+    "battle": 0.7,
+    "collector": 0.2,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Cutiefly": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Cyclizar": {
+    "battle": 0.7,
+    "collector": 0.2,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Cyndaquil": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Dachsbun": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Darkrai": {
+    "battle": 0.7,
+    "collector": 0.2,
+    "breeder": 0,
+    "story": 0,
+    "popular": 0
+  },
+  "Darmanitan Standard Mode": {
+    "battle": 0.4,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Darmanitan Zen Mode": {
+    "battle": 0.7,
+    "collector": 0.2,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Darmanitan Galarian Standard Mode": {
+    "battle": 0.4,
+    "collector": 0.3,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Darmanitan Galarian Zen Mode": {
+    "battle": 0.7,
+    "collector": 0.5,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Dartrix": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Darumaka": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Galarian Darumaka": {
+    "battle": 0,
+    "collector": 0.3,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Decidueye": {
+    "battle": 0.7,
+    "collector": 0.2,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Hisuian Decidueye": {
+    "battle": 0.7,
+    "collector": 0.5,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Dedenne": {
+    "battle": 0.4,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Deerling": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Deino": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Delcatty": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Delibird": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Delphox": {
+    "battle": 0.7,
+    "collector": 0.2,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Deoxys Normal Forme": {
+    "battle": 0.7,
+    "collector": 0.2,
+    "breeder": 0,
+    "story": 0,
+    "popular": 0
+  },
+  "Deoxys Attack Forme": {
+    "battle": 0.7,
+    "collector": 0.2,
+    "breeder": 0,
+    "story": 0,
+    "popular": 0
+  },
+  "Deoxys Defense Forme": {
+    "battle": 0.3,
+    "collector": 0.2,
+    "breeder": 0,
+    "story": 0,
+    "popular": 0
+  },
+  "Deoxys Speed Forme": {
+    "battle": 0.7,
+    "collector": 0.2,
+    "breeder": 0,
+    "story": 0,
+    "popular": 0
+  },
+  "Dewgong": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Dewott": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Dewpider": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0.2
+  },
+  "Dhelmise": {
+    "battle": 0.7,
+    "collector": 0.2,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Dialga": {
+    "battle": 0.7,
+    "collector": 0.2,
+    "breeder": 0,
+    "story": 0,
+    "popular": 0
+  },
+  "Dialga Origin Forme": {
+    "battle": 0.7,
+    "collector": 0.2,
+    "breeder": 0,
+    "story": 0,
+    "popular": 0
+  },
+  "Diancie": {
+    "battle": 0.3,
+    "collector": 0.2,
+    "breeder": 0,
+    "story": 0,
+    "popular": 0
+  },
+  "Mega Diancie": {
+    "battle": 0.7,
+    "collector": 0.5,
+    "breeder": 0,
+    "story": 0,
+    "popular": 0
+  },
+  "Diggersby": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Diglett": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0.2
+  },
+  "Alolan Diglett": {
+    "battle": 0,
+    "collector": 0.3,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0.2
+  },
+  "Dipplin": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Ditto": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0.2
+  },
+  "Dodrio": {
+    "battle": 0.4,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Doduo": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Dolliv": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Dondozo": {
+    "battle": 0.3,
+    "collector": 0.2,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Donphan": {
+    "battle": 0.4,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Dottler": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Doublade": {
+    "battle": 0.4,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Dracovish": {
+    "battle": 0.3,
+    "collector": 0.2,
+    "breeder": 0,
+    "story": 0,
+    "popular": 0
+  },
+  "Dracozolt": {
+    "battle": 0.3,
+    "collector": 0.2,
+    "breeder": 0,
+    "story": 0,
+    "popular": 0
+  },
+  "Dragalge": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Dragapult": {
+    "battle": 0.7,
+    "collector": 0.2,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Dragonair": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Dragonite": {
+    "battle": 0.7,
+    "collector": 0.2,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0.4
+  },
+  "Drakloak": {
+    "battle": 0.4,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Drampa": {
+    "battle": 0.4,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Drapion": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Dratini": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Drednaw": {
+    "battle": 0.4,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Dreepy": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0.2
+  },
+  "Drifblim": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Drifloon": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Drilbur": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Drizzile": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Drowzee": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Druddigon": {
+    "battle": 0.4,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Dubwool": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Ducklett": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Dudunsparce Two-Segment Form": {
+    "battle": 0.3,
+    "collector": 0.2,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Dudunsparce Three-Segment Form": {
+    "battle": 0.3,
+    "collector": 0.2,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Dugtrio": {
+    "battle": 0.4,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Alolan Dugtrio": {
+    "battle": 0.4,
+    "collector": 0.3,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Dunsparce": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Duosion": {
+    "battle": 0.4,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Duraludon": {
+    "battle": 0.3,
+    "collector": 0.2,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Durant": {
+    "battle": 0.4,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Dusclops": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Dusknoir": {
+    "battle": 0.3,
+    "collector": 0.2,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Duskull": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0.2
+  },
+  "Dustox": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Dwebble": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Eelektrik": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Eelektross": {
+    "battle": 0.7,
+    "collector": 0.2,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Eevee": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0.4
+  },
+  "Partner Eevee": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0.4
+  },
+  "Eiscue Ice Face": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Eiscue Noice Face": {
+    "battle": 0.4,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Ekans": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0.2
+  },
+  "Eldegoss": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Electabuzz": {
+    "battle": 0.4,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Electivire": {
+    "battle": 0.7,
+    "collector": 0.2,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Electrike": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0.2
+  },
+  "Electrode": {
+    "battle": 0.4,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Hisuian Electrode": {
+    "battle": 0.4,
+    "collector": 0.3,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Elekid": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0,
+    "story": 0,
+    "popular": 0
+  },
+  "Elgyem": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Emboar": {
+    "battle": 0.7,
+    "collector": 0.2,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Emolga": {
+    "battle": 0.4,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Empoleon": {
+    "battle": 0.3,
+    "collector": 0.2,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Enamorus Incarnate Forme": {
+    "battle": 0.7,
+    "collector": 0.2,
+    "breeder": 0,
+    "story": 0,
+    "popular": 0
+  },
+  "Enamorus Therian Forme": {
+    "battle": 0.7,
+    "collector": 0.2,
+    "breeder": 0,
+    "story": 0,
+    "popular": 0
+  },
+  "Entei": {
+    "battle": 0.7,
+    "collector": 0.2,
+    "breeder": 0,
+    "story": 0,
+    "popular": 0
+  },
+  "Escavalier": {
+    "battle": 0.4,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Espathra": {
+    "battle": 0.4,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Espeon": {
+    "battle": 0.7,
+    "collector": 0.2,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Espurr": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Eternatus": {
+    "battle": 0.7,
+    "collector": 0.2,
+    "breeder": 0,
+    "story": 0,
+    "popular": 0
+  },
+  "Eternatus Eternamax": {
+    "battle": 0.7,
+    "collector": 0.2,
+    "breeder": 0,
+    "story": 0,
+    "popular": 0
+  },
+  "Excadrill": {
+    "battle": 0.7,
+    "collector": 0.2,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Exeggcute": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Exeggutor": {
+    "battle": 0.7,
+    "collector": 0.2,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Alolan Exeggutor": {
+    "battle": 0.7,
+    "collector": 0.5,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Exploud": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Falinks": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Farfetch'd": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Galarian Farfetch'd": {
+    "battle": 0,
+    "collector": 0.3,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Farigiraf": {
+    "battle": 0.3,
+    "collector": 0.2,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Fearow": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Feebas": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0.2
+  },
+  "Fennekin": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Feraligatr": {
+    "battle": 0.7,
+    "collector": 0.2,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Ferroseed": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Ferrothorn": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Fezandipiti": {
+    "battle": 0.3,
+    "collector": 0.2,
+    "breeder": 0,
+    "story": 0,
+    "popular": 0
+  },
+  "Fidough": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Finizen": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Finneon": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Flaaffy": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Flab\u00e9b\u00e9": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Flamigo": {
+    "battle": 0.4,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Flapple": {
+    "battle": 0.4,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Flareon": {
+    "battle": 0.7,
+    "collector": 0.2,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Fletchinder": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Fletchling": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0.2
+  },
+  "Flittle": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0.2
+  },
+  "Floatzel": {
+    "battle": 0.4,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Floette": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Floragato": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Florges": {
+    "battle": 0.3,
+    "collector": 0.2,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Flutter Mane": {
+    "battle": 0.7,
+    "collector": 0.2,
+    "breeder": 0,
+    "story": 0,
+    "popular": 0
+  },
+  "Flygon": {
+    "battle": 0.3,
+    "collector": 0.2,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Fomantis": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0.2
+  },
+  "Foongus": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0.2
+  },
+  "Forretress": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Fraxure": {
+    "battle": 0.4,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Frigibax": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Frillish": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Froakie": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Frogadier": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Froslass": {
+    "battle": 0.4,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Frosmoth": {
+    "battle": 0.4,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Fuecoco": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Furfrou": {
+    "battle": 0.4,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Furret": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Gabite": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Gallade": {
+    "battle": 0.7,
+    "collector": 0.2,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Mega Gallade": {
+    "battle": 0.7,
+    "collector": 0.5,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Galvantula": {
+    "battle": 0.4,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Garbodor": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Garchomp": {
+    "battle": 0.7,
+    "collector": 0.2,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Mega Garchomp": {
+    "battle": 0.7,
+    "collector": 0.5,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Gardevoir": {
+    "battle": 0.7,
+    "collector": 0.2,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Mega Gardevoir": {
+    "battle": 0.7,
+    "collector": 0.5,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Garganacl": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Gastly": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Gastrodon": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Genesect": {
+    "battle": 0.7,
+    "collector": 0.2,
+    "breeder": 0,
+    "story": 0,
+    "popular": 0
+  },
+  "Gengar": {
+    "battle": 0.4,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0.4
+  },
+  "Mega Gengar": {
+    "battle": 0.7,
+    "collector": 0.5,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0.4
+  },
+  "Geodude": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Alolan Geodude": {
+    "battle": 0,
+    "collector": 0.3,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Gholdengo": {
+    "battle": 0.7,
+    "collector": 0.2,
+    "breeder": 0,
+    "story": 0,
+    "popular": 0
+  },
+  "Gible": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Gigalith": {
+    "battle": 0.7,
+    "collector": 0.2,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Gimmighoul Chest Form": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0,
+    "story": 0,
+    "popular": 0
+  },
+  "Gimmighoul Roaming Form": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0,
+    "story": 0,
+    "popular": 0
+  },
+  "Girafarig": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Giratina Altered Forme": {
+    "battle": 0.3,
+    "collector": 0.2,
+    "breeder": 0,
+    "story": 0,
+    "popular": 0
+  },
+  "Giratina Origin Forme": {
+    "battle": 0.7,
+    "collector": 0.2,
+    "breeder": 0,
+    "story": 0,
+    "popular": 0
+  },
+  "Glaceon": {
+    "battle": 0.7,
+    "collector": 0.2,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Glalie": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Mega Glalie": {
+    "battle": 0.7,
+    "collector": 0.5,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Glameow": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Glastrier": {
+    "battle": 0.7,
+    "collector": 0.2,
+    "breeder": 0,
+    "story": 0,
+    "popular": 0
+  },
+  "Gligar": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Glimmet": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Glimmora": {
+    "battle": 0.7,
+    "collector": 0.2,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Gliscor": {
+    "battle": 0.3,
+    "collector": 0.2,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Gloom": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Gogoat": {
+    "battle": 0.3,
+    "collector": 0.2,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Golbat": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Goldeen": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Golduck": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Golem": {
+    "battle": 0.4,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Alolan Golem": {
+    "battle": 0.4,
+    "collector": 0.3,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Golett": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Golisopod": {
+    "battle": 0.7,
+    "collector": 0.2,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Golurk": {
+    "battle": 0.4,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Goodra": {
+    "battle": 0.3,
+    "collector": 0.2,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Hisuian Goodra": {
+    "battle": 0.3,
+    "collector": 0.5,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Goomy": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Gorebyss": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Gossifleur": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0.2
+  },
+  "Gothita": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0.2
+  },
+  "Gothitelle": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Gothorita": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Gouging Fire": {
+    "battle": 0.7,
+    "collector": 0.2,
+    "breeder": 0,
+    "story": 0,
+    "popular": 0
+  },
+  "Gourgeist Average Size": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Gourgeist Small Size": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Gourgeist Large Size": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Gourgeist Super Size": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Grafaiai": {
+    "battle": 0.4,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Granbull": {
+    "battle": 0.4,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Grapploct": {
+    "battle": 0.4,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Graveler": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Alolan Graveler": {
+    "battle": 0,
+    "collector": 0.3,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Great Tusk": {
+    "battle": 0.7,
+    "collector": 0.2,
+    "breeder": 0,
+    "story": 0,
+    "popular": 0
+  },
+  "Greavard": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0.2
+  },
+  "Greedent": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Greninja": {
+    "battle": 0.7,
+    "collector": 0.2,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Ash-Greninja": {
+    "battle": 0.7,
+    "collector": 0.2,
+    "breeder": 0,
+    "story": 0,
+    "popular": 0
+  },
+  "Grimer": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Alolan Grimer": {
+    "battle": 0,
+    "collector": 0.3,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Grimmsnarl": {
+    "battle": 0.7,
+    "collector": 0.2,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Grookey": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Grotle": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Groudon": {
+    "battle": 0.7,
+    "collector": 0.2,
+    "breeder": 0,
+    "story": 0,
+    "popular": 0
+  },
+  "Primal Groudon": {
+    "battle": 0.7,
+    "collector": 0.2,
+    "breeder": 0,
+    "story": 0,
+    "popular": 0
+  },
+  "Grovyle": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Growlithe": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Hisuian Growlithe": {
+    "battle": 0,
+    "collector": 0.3,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Grubbin": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Grumpig": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Gulpin": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Gumshoos": {
+    "battle": 0.4,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Gurdurr": {
+    "battle": 0.4,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Guzzlord": {
+    "battle": 0.7,
+    "collector": 0.2,
+    "breeder": 0,
+    "story": 0,
+    "popular": 0
+  },
+  "Gyarados": {
+    "battle": 0.7,
+    "collector": 0.2,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0.4
+  },
+  "Mega Gyarados": {
+    "battle": 0.7,
+    "collector": 0.5,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0.4
+  },
+  "Hakamo-o": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Happiny": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0,
+    "story": 0,
+    "popular": 0.2
+  },
+  "Hariyama": {
+    "battle": 0.4,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Hatenna": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0.2
+  },
+  "Hatterene": {
+    "battle": 0.7,
+    "collector": 0.2,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Hattrem": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Haunter": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Hawlucha": {
+    "battle": 0.4,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Haxorus": {
+    "battle": 0.7,
+    "collector": 0.2,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Heatmor": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Heatran": {
+    "battle": 0.7,
+    "collector": 0.2,
+    "breeder": 0,
+    "story": 0,
+    "popular": 0
+  },
+  "Heliolisk": {
+    "battle": 0.4,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Helioptile": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0.2
+  },
+  "Heracross": {
+    "battle": 0.4,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Mega Heracross": {
+    "battle": 0.7,
+    "collector": 0.5,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Herdier": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Hippopotas": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Hippowdon": {
+    "battle": 0.7,
+    "collector": 0.2,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Hitmonchan": {
+    "battle": 0.4,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Hitmonlee": {
+    "battle": 0.4,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Hitmontop": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Ho-oh": {
+    "battle": 0.7,
+    "collector": 0.2,
+    "breeder": 0,
+    "story": 0,
+    "popular": 0
+  },
+  "Honchkrow": {
+    "battle": 0.7,
+    "collector": 0.2,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Honedge": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Hoopa Confined": {
+    "battle": 0.7,
+    "collector": 0.2,
+    "breeder": 0,
+    "story": 0,
+    "popular": 0
+  },
+  "Hoopa Unbound": {
+    "battle": 0.7,
+    "collector": 0.2,
+    "breeder": 0,
+    "story": 0,
+    "popular": 0
+  },
+  "Hoothoot": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0.2
+  },
+  "Hoppip": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0.2
+  },
+  "Horsea": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0.2
+  },
+  "Houndoom": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Mega Houndoom": {
+    "battle": 0.7,
+    "collector": 0.5,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Houndour": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Houndstone": {
+    "battle": 0.4,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Huntail": {
+    "battle": 0.4,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Hydrapple": {
+    "battle": 0.3,
+    "collector": 0.2,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Hydreigon": {
+    "battle": 0.7,
+    "collector": 0.2,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Hypno": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Igglybuff": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0,
+    "story": 0,
+    "popular": 0.2
+  },
+  "Illumise": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Impidimp": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0.2
+  },
+  "Incineroar": {
+    "battle": 0.7,
+    "collector": 0.2,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Indeedee Male": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Indeedee Female": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Infernape": {
+    "battle": 0.7,
+    "collector": 0.2,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Inkay": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0.2
+  },
+  "Inteleon": {
+    "battle": 0.7,
+    "collector": 0.2,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Iron Boulder": {
+    "battle": 0.7,
+    "collector": 0.2,
+    "breeder": 0,
+    "story": 0,
+    "popular": 0
+  },
+  "Iron Bundle": {
+    "battle": 0.7,
+    "collector": 0.2,
+    "breeder": 0,
+    "story": 0,
+    "popular": 0
+  },
+  "Iron Crown": {
+    "battle": 0.7,
+    "collector": 0.2,
+    "breeder": 0,
+    "story": 0,
+    "popular": 0
+  },
+  "Iron Hands": {
+    "battle": 0.7,
+    "collector": 0.2,
+    "breeder": 0,
+    "story": 0,
+    "popular": 0
+  },
+  "Iron Jugulis": {
+    "battle": 0.7,
+    "collector": 0.2,
+    "breeder": 0,
+    "story": 0,
+    "popular": 0
+  },
+  "Iron Leaves": {
+    "battle": 0.7,
+    "collector": 0.2,
+    "breeder": 0,
+    "story": 0,
+    "popular": 0
+  },
+  "Iron Moth": {
+    "battle": 0.7,
+    "collector": 0.2,
+    "breeder": 0,
+    "story": 0,
+    "popular": 0
+  },
+  "Iron Thorns": {
+    "battle": 0.7,
+    "collector": 0.2,
+    "breeder": 0,
+    "story": 0,
+    "popular": 0
+  },
+  "Iron Treads": {
+    "battle": 0.7,
+    "collector": 0.2,
+    "breeder": 0,
+    "story": 0,
+    "popular": 0
+  },
+  "Iron Valiant": {
+    "battle": 0.7,
+    "collector": 0.2,
+    "breeder": 0,
+    "story": 0,
+    "popular": 0
+  },
+  "Ivysaur": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Jangmo-o": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Jellicent": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Jigglypuff": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0.2
+  },
+  "Jirachi": {
+    "battle": 0.3,
+    "collector": 0.2,
+    "breeder": 0,
+    "story": 0,
+    "popular": 0
+  },
+  "Jolteon": {
+    "battle": 0.7,
+    "collector": 0.2,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Joltik": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Jumpluff": {
+    "battle": 0.4,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Jynx": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Kabuto": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Kabutops": {
+    "battle": 0.4,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Kadabra": {
+    "battle": 0.4,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Kakuna": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0.2
+  },
+  "Kangaskhan": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Mega Kangaskhan": {
+    "battle": 0.7,
+    "collector": 0.5,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Karrablast": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Kartana": {
+    "battle": 0.7,
+    "collector": 0.2,
+    "breeder": 0,
+    "story": 0,
+    "popular": 0
+  },
+  "Kecleon": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Keldeo Ordinary Form": {
+    "battle": 0.7,
+    "collector": 0.2,
+    "breeder": 0,
+    "story": 0,
+    "popular": 0
+  },
+  "Keldeo Resolute Form": {
+    "battle": 0.7,
+    "collector": 0.2,
+    "breeder": 0,
+    "story": 0,
+    "popular": 0
+  },
+  "Kilowattrel": {
+    "battle": 0.4,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Kingambit": {
+    "battle": 0.7,
+    "collector": 0.2,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Kingdra": {
+    "battle": 0.3,
+    "collector": 0.2,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Kingler": {
+    "battle": 0.4,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Kirlia": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0.2
+  },
+  "Klang": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Klawf": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Kleavor": {
+    "battle": 0.4,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Klefki": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Klink": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Klinklang": {
+    "battle": 0.3,
+    "collector": 0.2,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Koffing": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Komala": {
+    "battle": 0.4,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Kommo-o": {
+    "battle": 0.7,
+    "collector": 0.2,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Koraidon": {
+    "battle": 0.7,
+    "collector": 0.2,
+    "breeder": 0,
+    "story": 0,
+    "popular": 0
+  },
+  "Krabby": {
+    "battle": 0.4,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Kricketot": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0.2
+  },
+  "Kricketune": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Krokorok": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Krookodile": {
+    "battle": 0.7,
+    "collector": 0.2,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Kubfu": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0,
+    "story": 0,
+    "popular": 0
+  },
+  "Kyogre": {
+    "battle": 0.7,
+    "collector": 0.2,
+    "breeder": 0,
+    "story": 0,
+    "popular": 0
+  },
+  "Primal Kyogre": {
+    "battle": 0.7,
+    "collector": 0.2,
+    "breeder": 0,
+    "story": 0,
+    "popular": 0
+  },
+  "Kyurem": {
+    "battle": 0.7,
+    "collector": 0.2,
+    "breeder": 0,
+    "story": 0,
+    "popular": 0
+  },
+  "White Kyurem": {
+    "battle": 0.7,
+    "collector": 0.2,
+    "breeder": 0,
+    "story": 0,
+    "popular": 0
+  },
+  "Black Kyurem": {
+    "battle": 0.7,
+    "collector": 0.2,
+    "breeder": 0,
+    "story": 0,
+    "popular": 0
+  },
+  "Lairon": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Lampent": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Landorus Incarnate Forme": {
+    "battle": 0.7,
+    "collector": 0.2,
+    "breeder": 0,
+    "story": 0,
+    "popular": 0
+  },
+  "Landorus Therian Forme": {
+    "battle": 0.7,
+    "collector": 0.2,
+    "breeder": 0,
+    "story": 0,
+    "popular": 0
+  },
+  "Lanturn": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Lapras": {
+    "battle": 0.3,
+    "collector": 0.2,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Larvesta": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Larvitar": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Latias": {
+    "battle": 0.7,
+    "collector": 0.2,
+    "breeder": 0,
+    "story": 0,
+    "popular": 0
+  },
+  "Mega Latias": {
+    "battle": 0.7,
+    "collector": 0.5,
+    "breeder": 0,
+    "story": 0,
+    "popular": 0
+  },
+  "Latios": {
+    "battle": 0.7,
+    "collector": 0.2,
+    "breeder": 0,
+    "story": 0,
+    "popular": 0
+  },
+  "Mega Latios": {
+    "battle": 0.7,
+    "collector": 0.5,
+    "breeder": 0,
+    "story": 0,
+    "popular": 0
+  },
+  "Leafeon": {
+    "battle": 0.7,
+    "collector": 0.2,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Leavanny": {
+    "battle": 0.4,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Lechonk": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0.2
+  },
+  "Ledian": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Ledyba": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0.2
+  },
+  "Lickilicky": {
+    "battle": 0.3,
+    "collector": 0.2,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Lickitung": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Liepard": {
+    "battle": 0.4,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Lileep": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Lilligant": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Hisuian Lilligant": {
+    "battle": 0.4,
+    "collector": 0.3,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Lillipup": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0.2
+  },
+  "Linoone": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Galarian Linoone": {
+    "battle": 0,
+    "collector": 0.3,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Litleo": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Litten": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Litwick": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0.2
+  },
+  "Lokix": {
+    "battle": 0.4,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Lombre": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Lopunny": {
+    "battle": 0.4,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Mega Lopunny": {
+    "battle": 0.7,
+    "collector": 0.5,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Lotad": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0.2
+  },
+  "Loudred": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Lucario": {
+    "battle": 0.7,
+    "collector": 0.2,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Mega Lucario": {
+    "battle": 0.7,
+    "collector": 0.5,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Ludicolo": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Lugia": {
+    "battle": 0.7,
+    "collector": 0.2,
+    "breeder": 0,
+    "story": 0,
+    "popular": 0
+  },
+  "Lumineon": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Lunala": {
+    "battle": 0.7,
+    "collector": 0.2,
+    "breeder": 0,
+    "story": 0,
+    "popular": 0
+  },
+  "Lunatone": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Lurantis": {
+    "battle": 0.4,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Luvdisc": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Luxio": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Luxray": {
+    "battle": 0.7,
+    "collector": 0.2,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Lycanroc Midday Form": {
+    "battle": 0.4,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Lycanroc Midnight Form": {
+    "battle": 0.4,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Lycanroc Dusk Form": {
+    "battle": 0.4,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Mabosstiff": {
+    "battle": 0.7,
+    "collector": 0.2,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Machamp": {
+    "battle": 0.7,
+    "collector": 0.2,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Machoke": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Machop": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Magby": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0,
+    "story": 0,
+    "popular": 0
+  },
+  "Magcargo": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Magearna": {
+    "battle": 0.7,
+    "collector": 0.2,
+    "breeder": 0,
+    "story": 0,
+    "popular": 0
+  },
+  "Magikarp": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0.2
+  },
+  "Magmar": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Magmortar": {
+    "battle": 0.7,
+    "collector": 0.2,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Magnemite": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Magneton": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Magnezone": {
+    "battle": 0.7,
+    "collector": 0.2,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Makuhita": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0.2
+  },
+  "Malamar": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Mamoswine": {
+    "battle": 0.7,
+    "collector": 0.2,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Manaphy": {
+    "battle": 0.3,
+    "collector": 0.2,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Mandibuzz": {
+    "battle": 0.3,
+    "collector": 0.2,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Manectric": {
+    "battle": 0.4,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Mega Manectric": {
+    "battle": 0.7,
+    "collector": 0.5,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Mankey": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Mantine": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Mantyke": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0,
+    "story": 0,
+    "popular": 0
+  },
+  "Maractus": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Mareanie": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Mareep": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0.2
+  },
+  "Marill": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0.2
+  },
+  "Marowak": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Alolan Marowak": {
+    "battle": 0,
+    "collector": 0.3,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Marshadow": {
+    "battle": 0.7,
+    "collector": 0.2,
+    "breeder": 0,
+    "story": 0,
+    "popular": 0
+  },
+  "Marshtomp": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Maschiff": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Masquerain": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Maushold Family of Four": {
+    "battle": 0.4,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Maushold Family of Three": {
+    "battle": 0.4,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Mawile": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Mega Mawile": {
+    "battle": 0.4,
+    "collector": 0.3,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Medicham": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Mega Medicham": {
+    "battle": 0.3,
+    "collector": 0.5,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Meditite": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0.2
+  },
+  "Meganium": {
+    "battle": 0.3,
+    "collector": 0.5,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Melmetal": {
+    "battle": 0.7,
+    "collector": 0.2,
+    "breeder": 0,
+    "story": 0,
+    "popular": 0
+  },
+  "Meloetta Aria Forme": {
+    "battle": 0.7,
+    "collector": 0.2,
+    "breeder": 0,
+    "story": 0,
+    "popular": 0
+  },
+  "Meloetta Pirouette Forme": {
+    "battle": 0.7,
+    "collector": 0.2,
+    "breeder": 0,
+    "story": 0,
+    "popular": 0
+  },
+  "Meltan": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0,
+    "story": 0,
+    "popular": 0
+  },
+  "Meowscarada": {
+    "battle": 0.7,
+    "collector": 0.2,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Meowstic Male": {
+    "battle": 0.4,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Meowstic Female": {
+    "battle": 0.4,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Meowth": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0.2
+  },
+  "Alolan Meowth": {
+    "battle": 0,
+    "collector": 0.3,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0.2
+  },
+  "Galarian Meowth": {
+    "battle": 0,
+    "collector": 0.3,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0.2
+  },
+  "Mesprit": {
+    "battle": 0.7,
+    "collector": 0.2,
+    "breeder": 0,
+    "story": 0,
+    "popular": 0
+  },
+  "Metagross": {
+    "battle": 0.7,
+    "collector": 0.2,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Mega Metagross": {
+    "battle": 0.7,
+    "collector": 0.5,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Metang": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Metapod": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0.2
+  },
+  "Mew": {
+    "battle": 0.3,
+    "collector": 0.2,
+    "breeder": 0,
+    "story": 0,
+    "popular": 0.4
+  },
+  "Mewtwo": {
+    "battle": 0.7,
+    "collector": 0.2,
+    "breeder": 0,
+    "story": 0,
+    "popular": 0.4
+  },
+  "Mega Mewtwo X": {
+    "battle": 0.7,
+    "collector": 0.5,
+    "breeder": 0,
+    "story": 0,
+    "popular": 0.4
+  },
+  "Mega Mewtwo Y": {
+    "battle": 0.7,
+    "collector": 0.5,
+    "breeder": 0,
+    "story": 0,
+    "popular": 0.4
+  },
+  "Mienfoo": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Mienshao": {
+    "battle": 0.7,
+    "collector": 0.2,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Mightyena": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Milcery": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0.2
+  },
+  "Milotic": {
+    "battle": 0.3,
+    "collector": 0.2,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Miltank": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Mime Jr.": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0,
+    "story": 0,
+    "popular": 0
+  },
+  "Mimikyu": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Minccino": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Minior Meteor Form": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Minior Core Form": {
+    "battle": 0.4,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Minun": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Miraidon": {
+    "battle": 0.7,
+    "collector": 0.2,
+    "breeder": 0,
+    "story": 0,
+    "popular": 0
+  },
+  "Misdreavus": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Mismagius": {
+    "battle": 0.4,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Moltres": {
+    "battle": 0.7,
+    "collector": 0.2,
+    "breeder": 0,
+    "story": 0,
+    "popular": 0
+  },
+  "Galarian Moltres": {
+    "battle": 0.3,
+    "collector": 0.5,
+    "breeder": 0,
+    "story": 0,
+    "popular": 0
+  },
+  "Monferno": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Morelull": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0.2
+  },
+  "Morgrem": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Morpeko Full Belly Mode": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Morpeko Hangry Mode": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Mothim": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Mr. Mime": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Galarian Mr. Mime": {
+    "battle": 0,
+    "collector": 0.3,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Mr. Rime": {
+    "battle": 0.3,
+    "collector": 0.2,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Mudbray": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Mudkip": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Mudsdale": {
+    "battle": 0.4,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Muk": {
+    "battle": 0.4,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Alolan Muk": {
+    "battle": 0.4,
+    "collector": 0.3,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Munchlax": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0,
+    "story": 0,
+    "popular": 0
+  },
+  "Munkidori": {
+    "battle": 0.7,
+    "collector": 0.2,
+    "breeder": 0,
+    "story": 0,
+    "popular": 0
+  },
+  "Munna": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0.2
+  },
+  "Murkrow": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Musharna": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Nacli": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0.2
+  },
+  "Naclstack": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Naganadel": {
+    "battle": 0.7,
+    "collector": 0.2,
+    "breeder": 0,
+    "story": 0,
+    "popular": 0
+  },
+  "Natu": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Necrozma": {
+    "battle": 0.7,
+    "collector": 0.2,
+    "breeder": 0,
+    "story": 0,
+    "popular": 0
+  },
+  "Dusk Mane Necrozma": {
+    "battle": 0.7,
+    "collector": 0.2,
+    "breeder": 0,
+    "story": 0,
+    "popular": 0
+  },
+  "Dawn Wings Necrozma": {
+    "battle": 0.7,
+    "collector": 0.2,
+    "breeder": 0,
+    "story": 0,
+    "popular": 0
+  },
+  "Ultra Necrozma": {
+    "battle": 0.7,
+    "collector": 0.2,
+    "breeder": 0,
+    "story": 0,
+    "popular": 0
+  },
+  "Nickit": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0.2
+  },
+  "Nidoking": {
+    "battle": 0.7,
+    "collector": 0.2,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Nidoqueen": {
+    "battle": 0.3,
+    "collector": 0.2,
+    "breeder": 0,
+    "story": 0,
+    "popular": 0
+  },
+  "Nidoran\u2640 (female) Nidoran\u2640": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0.2
+  },
+  "Nidoran\u2642 (male) Nidoran\u2642": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0.2
+  },
+  "Nidorina": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0,
+    "story": 0,
+    "popular": 0
+  },
+  "Nidorino": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Nihilego": {
+    "battle": 0.7,
+    "collector": 0.2,
+    "breeder": 0,
+    "story": 0,
+    "popular": 0
+  },
+  "Nincada": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0.2
+  },
+  "Ninetales": {
+    "battle": 0.3,
+    "collector": 0.2,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Alolan Ninetales": {
+    "battle": 0.7,
+    "collector": 0.5,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Ninjask": {
+    "battle": 0.4,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Noctowl": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Noibat": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0.2
+  },
+  "Noivern": {
+    "battle": 0.7,
+    "collector": 0.2,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Nosepass": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Numel": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Nuzleaf": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Nymble": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0.2
+  },
+  "Obstagoon": {
+    "battle": 0.3,
+    "collector": 0.2,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Octillery": {
+    "battle": 0.4,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Oddish": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Ogerpon Teal Mask": {
+    "battle": 0.7,
+    "collector": 0.2,
+    "breeder": 0,
+    "story": 0,
+    "popular": 0
+  },
+  "Ogerpon Wellspring Mask": {
+    "battle": 0.7,
+    "collector": 0.2,
+    "breeder": 0,
+    "story": 0,
+    "popular": 0
+  },
+  "Ogerpon Hearthflame Mask": {
+    "battle": 0.7,
+    "collector": 0.2,
+    "breeder": 0,
+    "story": 0,
+    "popular": 0
+  },
+  "Ogerpon Cornerstone Mask": {
+    "battle": 0.7,
+    "collector": 0.2,
+    "breeder": 0,
+    "story": 0,
+    "popular": 0
+  },
+  "Oinkologne Male": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Oinkologne Female": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Okidogi": {
+    "battle": 0.7,
+    "collector": 0.2,
+    "breeder": 0,
+    "story": 0,
+    "popular": 0
+  },
+  "Omanyte": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Omastar": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Onix": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Oranguru": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Orbeetle": {
+    "battle": 0.3,
+    "collector": 0.2,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Oricorio Baile Style": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Oricorio Pom-Pom Style": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Oricorio Pa'u Style": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Oricorio Sensu Style": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Orthworm": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Oshawott": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Overqwil": {
+    "battle": 0.7,
+    "collector": 0.2,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Pachirisu": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Palafin Zero Form": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Palafin Hero Form": {
+    "battle": 0.7,
+    "collector": 0.2,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Palkia": {
+    "battle": 0.7,
+    "collector": 0.2,
+    "breeder": 0,
+    "story": 0,
+    "popular": 0
+  },
+  "Palkia Origin Forme": {
+    "battle": 0.7,
+    "collector": 0.2,
+    "breeder": 0,
+    "story": 0,
+    "popular": 0
+  },
+  "Palossand": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Palpitoad": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Pancham": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Pangoro": {
+    "battle": 0.4,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Panpour": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Pansage": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Pansear": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Paras": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0.2
+  },
+  "Parasect": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Passimian": {
+    "battle": 0.4,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Patrat": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0.2
+  },
+  "Pawmi": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0.2
+  },
+  "Pawmo": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Pawmot": {
+    "battle": 0.4,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Pawniard": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Pecharunt": {
+    "battle": 0.3,
+    "collector": 0.2,
+    "breeder": 0,
+    "story": 0,
+    "popular": 0
+  },
+  "Pelipper": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Perrserker": {
+    "battle": 0.4,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Persian": {
+    "battle": 0.4,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Alolan Persian": {
+    "battle": 0.4,
+    "collector": 0.3,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Petilil": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0.2
+  },
+  "Phanpy": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Phantump": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Pheromosa": {
+    "battle": 0.7,
+    "collector": 0.2,
+    "breeder": 0,
+    "story": 0,
+    "popular": 0
+  },
+  "Phione": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Pichu": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0,
+    "story": 0,
+    "popular": 0.2
+  },
+  "Pidgeot": {
+    "battle": 0.4,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Mega Pidgeot": {
+    "battle": 0.7,
+    "collector": 0.5,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Pidgeotto": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Pidgey": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0.2
+  },
+  "Pidove": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0.2
+  },
+  "Pignite": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Pikachu": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0.4
+  },
+  "Partner Pikachu": {
+    "battle": 0.4,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0.4
+  },
+  "Pikipek": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0.2
+  },
+  "Piloswine": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Pincurchin": {
+    "battle": 0.4,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Pineco": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0.2
+  },
+  "Pinsir": {
+    "battle": 0.4,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Mega Pinsir": {
+    "battle": 0.7,
+    "collector": 0.5,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Piplup": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Plusle": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Poipole": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0,
+    "story": 0,
+    "popular": 0
+  },
+  "Politoed": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Poliwag": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Poliwhirl": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Poliwrath": {
+    "battle": 0.3,
+    "collector": 0.2,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Poltchageist": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Polteageist": {
+    "battle": 0.7,
+    "collector": 0.2,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Ponyta": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Galarian Ponyta": {
+    "battle": 0,
+    "collector": 0.3,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Poochyena": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0.2
+  },
+  "Popplio": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Porygon": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Porygon-Z": {
+    "battle": 0.7,
+    "collector": 0.2,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Porygon2": {
+    "battle": 0.3,
+    "collector": 0.2,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Primarina": {
+    "battle": 0.7,
+    "collector": 0.2,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Primeape": {
+    "battle": 0.4,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Prinplup": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Probopass": {
+    "battle": 0.3,
+    "collector": 0.2,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Psyduck": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Pumpkaboo Average Size": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Pumpkaboo Small Size": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Pumpkaboo Large Size": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Pumpkaboo Super Size": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Pupitar": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Purrloin": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0.2
+  },
+  "Purugly": {
+    "battle": 0.4,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Pyroar": {
+    "battle": 0.7,
+    "collector": 0.2,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Pyukumuku": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Quagsire": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Quaquaval": {
+    "battle": 0.7,
+    "collector": 0.2,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Quaxly": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Quaxwell": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Quilava": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Quilladin": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Qwilfish": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Hisuian Qwilfish": {
+    "battle": 0,
+    "collector": 0.3,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Raboot": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Rabsca": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Raging Bolt": {
+    "battle": 0.7,
+    "collector": 0.2,
+    "breeder": 0,
+    "story": 0,
+    "popular": 0
+  },
+  "Raichu": {
+    "battle": 0.4,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Alolan Raichu": {
+    "battle": 0.4,
+    "collector": 0.3,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Raikou": {
+    "battle": 0.7,
+    "collector": 0.2,
+    "breeder": 0,
+    "story": 0,
+    "popular": 0
+  },
+  "Ralts": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0.2
+  },
+  "Rampardos": {
+    "battle": 0.4,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Rapidash": {
+    "battle": 0.4,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Galarian Rapidash": {
+    "battle": 0.4,
+    "collector": 0.3,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Raticate": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Alolan Raticate": {
+    "battle": 0,
+    "collector": 0.3,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Rattata": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0.2
+  },
+  "Alolan Rattata": {
+    "battle": 0,
+    "collector": 0.3,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0.2
+  },
+  "Rayquaza": {
+    "battle": 0.7,
+    "collector": 0.2,
+    "breeder": 0,
+    "story": 0,
+    "popular": 0
+  },
+  "Mega Rayquaza": {
+    "battle": 0.7,
+    "collector": 0.5,
+    "breeder": 0,
+    "story": 0,
+    "popular": 0
+  },
+  "Regice": {
+    "battle": 0.3,
+    "collector": 0.2,
+    "breeder": 0,
+    "story": 0,
+    "popular": 0
+  },
+  "Regidrago": {
+    "battle": 0.3,
+    "collector": 0.2,
+    "breeder": 0,
+    "story": 0,
+    "popular": 0
+  },
+  "Regieleki": {
+    "battle": 0.7,
+    "collector": 0.2,
+    "breeder": 0,
+    "story": 0,
+    "popular": 0
+  },
+  "Regigigas": {
+    "battle": 0.7,
+    "collector": 0.2,
+    "breeder": 0,
+    "story": 0,
+    "popular": 0
+  },
+  "Regirock": {
+    "battle": 0.3,
+    "collector": 0.2,
+    "breeder": 0,
+    "story": 0,
+    "popular": 0
+  },
+  "Registeel": {
+    "battle": 0.3,
+    "collector": 0.2,
+    "breeder": 0,
+    "story": 0,
+    "popular": 0
+  },
+  "Relicanth": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Rellor": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0.2
+  },
+  "Remoraid": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Reshiram": {
+    "battle": 0.7,
+    "collector": 0.2,
+    "breeder": 0,
+    "story": 0,
+    "popular": 0
+  },
+  "Reuniclus": {
+    "battle": 0.4,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Revavroom": {
+    "battle": 0.4,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Rhydon": {
+    "battle": 0.4,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Rhyhorn": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Rhyperior": {
+    "battle": 0.7,
+    "collector": 0.2,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Ribombee": {
+    "battle": 0.4,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Rillaboom": {
+    "battle": 0.7,
+    "collector": 0.2,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Riolu": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0,
+    "story": 0,
+    "popular": 0.2
+  },
+  "Roaring Moon": {
+    "battle": 0.7,
+    "collector": 0.2,
+    "breeder": 0,
+    "story": 0,
+    "popular": 0
+  },
+  "Rockruff": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0.2
+  },
+  "Own Tempo Rockruff": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0.2
+  },
+  "Roggenrola": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0.2
+  },
+  "Rolycoly": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0.2
+  },
+  "Rookidee": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0.2
+  },
+  "Roselia": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Roserade": {
+    "battle": 0.7,
+    "collector": 0.2,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Rotom": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Heat Rotom": {
+    "battle": 0.3,
+    "collector": 0.2,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Wash Rotom": {
+    "battle": 0.3,
+    "collector": 0.2,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Frost Rotom": {
+    "battle": 0.3,
+    "collector": 0.2,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Fan Rotom": {
+    "battle": 0.3,
+    "collector": 0.2,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Mow Rotom": {
+    "battle": 0.3,
+    "collector": 0.2,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Rowlet": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Rufflet": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Runerigus": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Sableye": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Mega Sableye": {
+    "battle": 0,
+    "collector": 0.3,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Salamence": {
+    "battle": 0.7,
+    "collector": 0.2,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Mega Salamence": {
+    "battle": 0.7,
+    "collector": 0.5,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Salandit": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Salazzle": {
+    "battle": 0.4,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Samurott": {
+    "battle": 0.3,
+    "collector": 0.2,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Hisuian Samurott": {
+    "battle": 0.7,
+    "collector": 0.5,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Sandaconda": {
+    "battle": 0.7,
+    "collector": 0.2,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Sandile": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0.2
+  },
+  "Sandshrew": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Alolan Sandshrew": {
+    "battle": 0,
+    "collector": 0.3,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Sandslash": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Alolan Sandslash": {
+    "battle": 0,
+    "collector": 0.3,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Sandy Shocks": {
+    "battle": 0.7,
+    "collector": 0.2,
+    "breeder": 0,
+    "story": 0,
+    "popular": 0
+  },
+  "Sandygast": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Sawk": {
+    "battle": 0.4,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Sawsbuck": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Scatterbug": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0.2
+  },
+  "Sceptile": {
+    "battle": 0.7,
+    "collector": 0.2,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Mega Sceptile": {
+    "battle": 0.7,
+    "collector": 0.5,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Scizor": {
+    "battle": 0.4,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Mega Scizor": {
+    "battle": 0.7,
+    "collector": 0.5,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Scolipede": {
+    "battle": 0.4,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Scorbunny": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Scovillain": {
+    "battle": 0.4,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Scrafty": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Scraggy": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Scream Tail": {
+    "battle": 0.7,
+    "collector": 0.2,
+    "breeder": 0,
+    "story": 0,
+    "popular": 0
+  },
+  "Scyther": {
+    "battle": 0.4,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Seadra": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Seaking": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Sealeo": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Seedot": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0.2
+  },
+  "Seel": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Seismitoad": {
+    "battle": 0.3,
+    "collector": 0.2,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Sentret": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0.2
+  },
+  "Serperior": {
+    "battle": 0.7,
+    "collector": 0.2,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Servine": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Seviper": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Sewaddle": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Sharpedo": {
+    "battle": 0.4,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Mega Sharpedo": {
+    "battle": 0.7,
+    "collector": 0.5,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Shaymin Land Forme": {
+    "battle": 0.3,
+    "collector": 0.2,
+    "breeder": 0,
+    "story": 0,
+    "popular": 0
+  },
+  "Shaymin Sky Forme": {
+    "battle": 0.7,
+    "collector": 0.2,
+    "breeder": 0,
+    "story": 0,
+    "popular": 0
+  },
+  "Shedinja": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0.2
+  },
+  "Shelgon": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Shellder": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Shellos": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Shelmet": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Shieldon": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Shiftry": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Shiinotic": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Shinx": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0.2
+  },
+  "Shroodle": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0.2
+  },
+  "Shroomish": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0.2
+  },
+  "Shuckle": {
+    "battle": 0.3,
+    "collector": 0.2,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Shuppet": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0.2
+  },
+  "Sigilyph": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Silcoon": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0.2
+  },
+  "Silicobra": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Silvally": {
+    "battle": 0.3,
+    "collector": 0.2,
+    "breeder": 0,
+    "story": 0,
+    "popular": 0
+  },
+  "Simipour": {
+    "battle": 0.4,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Simisage": {
+    "battle": 0.4,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Simisear": {
+    "battle": 0.4,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Sinistcha": {
+    "battle": 0.7,
+    "collector": 0.2,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Sinistea": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Sirfetch'd": {
+    "battle": 0.7,
+    "collector": 0.2,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Sizzlipede": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Skarmory": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Skeledirge": {
+    "battle": 0.3,
+    "collector": 0.2,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Skiddo": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Skiploom": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Skitty": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0.2
+  },
+  "Skorupi": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Skrelp": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Skuntank": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Skwovet": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0.2
+  },
+  "Slaking": {
+    "battle": 0.7,
+    "collector": 0.2,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Slakoth": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0.2
+  },
+  "Sliggoo": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Hisuian Sliggoo": {
+    "battle": 0,
+    "collector": 0.3,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Slither Wing": {
+    "battle": 0.7,
+    "collector": 0.2,
+    "breeder": 0,
+    "story": 0,
+    "popular": 0
+  },
+  "Slowbro": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Mega Slowbro": {
+    "battle": 0.7,
+    "collector": 0.5,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Galarian Slowbro": {
+    "battle": 0,
+    "collector": 0.3,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Slowking": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Galarian Slowking": {
+    "battle": 0,
+    "collector": 0.3,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Slowpoke": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Galarian Slowpoke": {
+    "battle": 0,
+    "collector": 0.3,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Slugma": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0.2
+  },
+  "Slurpuff": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Smeargle": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0.2
+  },
+  "Smoliv": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0.2
+  },
+  "Smoochum": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0,
+    "story": 0,
+    "popular": 0
+  },
+  "Sneasel": {
+    "battle": 0.4,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Hisuian Sneasel": {
+    "battle": 0.4,
+    "collector": 0.3,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Sneasler": {
+    "battle": 0.7,
+    "collector": 0.2,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Snivy": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Snom": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0.2
+  },
+  "Snorlax": {
+    "battle": 0.7,
+    "collector": 0.2,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Snorunt": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Snover": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Snubbull": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Sobble": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Solgaleo": {
+    "battle": 0.7,
+    "collector": 0.2,
+    "breeder": 0,
+    "story": 0,
+    "popular": 0
+  },
+  "Solosis": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0.2
+  },
+  "Solrock": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Spearow": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0.2
+  },
+  "Spectrier": {
+    "battle": 0.7,
+    "collector": 0.2,
+    "breeder": 0,
+    "story": 0,
+    "popular": 0
+  },
+  "Spewpa": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0.2
+  },
+  "Spheal": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0.2
+  },
+  "Spidops": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Spinarak": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0.2
+  },
+  "Spinda": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Spiritomb": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Spoink": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Sprigatito": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Spritzee": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Squawkabilly Green Plumage": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Squawkabilly Blue Plumage": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Squawkabilly Yellow Plumage": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Squawkabilly White Plumage": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Squirtle": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0.4
+  },
+  "Stakataka": {
+    "battle": 0.7,
+    "collector": 0.2,
+    "breeder": 0,
+    "story": 0,
+    "popular": 0
+  },
+  "Stantler": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Staraptor": {
+    "battle": 0.4,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Staravia": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Starly": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0.2
+  },
+  "Starmie": {
+    "battle": 0.7,
+    "collector": 0.2,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Staryu": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Steelix": {
+    "battle": 0.3,
+    "collector": 0.2,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Mega Steelix": {
+    "battle": 0.7,
+    "collector": 0.5,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Steenee": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0.2
+  },
+  "Stonjourner": {
+    "battle": 0.4,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Stoutland": {
+    "battle": 0.4,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Stufful": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Stunfisk": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Galarian Stunfisk": {
+    "battle": 0,
+    "collector": 0.3,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Stunky": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Sudowoodo": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Suicune": {
+    "battle": 0.3,
+    "collector": 0.2,
+    "breeder": 0,
+    "story": 0,
+    "popular": 0
+  },
+  "Sunflora": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Sunkern": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0.2
+  },
+  "Surskit": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0.2
+  },
+  "Swablu": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Swadloon": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Swalot": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Swampert": {
+    "battle": 0.7,
+    "collector": 0.2,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Mega Swampert": {
+    "battle": 0.7,
+    "collector": 0.5,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Swanna": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Swellow": {
+    "battle": 0.4,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Swinub": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0.2
+  },
+  "Swirlix": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Swoobat": {
+    "battle": 0.4,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Sylveon": {
+    "battle": 0.3,
+    "collector": 0.2,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Tadbulb": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0.2
+  },
+  "Taillow": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0.2
+  },
+  "Talonflame": {
+    "battle": 0.4,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Tandemaus": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Tangela": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Tangrowth": {
+    "battle": 0.3,
+    "collector": 0.2,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Tapu Bulu": {
+    "battle": 0.7,
+    "collector": 0.2,
+    "breeder": 0,
+    "story": 0,
+    "popular": 0
+  },
+  "Tapu Fini": {
+    "battle": 0.3,
+    "collector": 0.2,
+    "breeder": 0,
+    "story": 0,
+    "popular": 0
+  },
+  "Tapu Koko": {
+    "battle": 0.7,
+    "collector": 0.2,
+    "breeder": 0,
+    "story": 0,
+    "popular": 0
+  },
+  "Tapu Lele": {
+    "battle": 0.7,
+    "collector": 0.2,
+    "breeder": 0,
+    "story": 0,
+    "popular": 0
+  },
+  "Tarountula": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0.2
+  },
+  "Tatsugiri Curly Form": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Tatsugiri Droopy Form": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Tatsugiri Stretchy Form": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Tauros": {
+    "battle": 0.4,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Tauros Combat Breed": {
+    "battle": 0.4,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Tauros Blaze Breed": {
+    "battle": 0.4,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Tauros Aqua Breed": {
+    "battle": 0.4,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Teddiursa": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Tentacool": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Tentacruel": {
+    "battle": 0.3,
+    "collector": 0.2,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Tepig": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Terapagos Normal Form": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0,
+    "story": 0,
+    "popular": 0
+  },
+  "Terapagos Terastal Form": {
+    "battle": 0.3,
+    "collector": 0.2,
+    "breeder": 0,
+    "story": 0,
+    "popular": 0
+  },
+  "Terapagos Stellar Form": {
+    "battle": 0.7,
+    "collector": 0.2,
+    "breeder": 0,
+    "story": 0,
+    "popular": 0
+  },
+  "Terrakion": {
+    "battle": 0.7,
+    "collector": 0.2,
+    "breeder": 0,
+    "story": 0,
+    "popular": 0
+  },
+  "Thievul": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Throh": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Thundurus Incarnate Forme": {
+    "battle": 0.7,
+    "collector": 0.2,
+    "breeder": 0,
+    "story": 0,
+    "popular": 0
+  },
+  "Thundurus Therian Forme": {
+    "battle": 0.7,
+    "collector": 0.2,
+    "breeder": 0,
+    "story": 0,
+    "popular": 0
+  },
+  "Thwackey": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Timburr": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Ting-Lu": {
+    "battle": 0.7,
+    "collector": 0.2,
+    "breeder": 0,
+    "story": 0,
+    "popular": 0
+  },
+  "Tinkatink": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0.2
+  },
+  "Tinkaton": {
+    "battle": 0.3,
+    "collector": 0.2,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Tinkatuff": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Tirtouga": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Toedscool": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Toedscruel": {
+    "battle": 0.3,
+    "collector": 0.2,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Togedemaru": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Togekiss": {
+    "battle": 0.3,
+    "collector": 0.2,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Togepi": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0,
+    "story": 0,
+    "popular": 0.2
+  },
+  "Togetic": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Torchic": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Torkoal": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Tornadus Incarnate Forme": {
+    "battle": 0.7,
+    "collector": 0.2,
+    "breeder": 0,
+    "story": 0,
+    "popular": 0
+  },
+  "Tornadus Therian Forme": {
+    "battle": 0.7,
+    "collector": 0.2,
+    "breeder": 0,
+    "story": 0,
+    "popular": 0
+  },
+  "Torracat": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Torterra": {
+    "battle": 0.7,
+    "collector": 0.2,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Totodile": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Toucannon": {
+    "battle": 0.4,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Toxapex": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Toxel": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0,
+    "story": 0,
+    "popular": 0.2
+  },
+  "Toxicroak": {
+    "battle": 0.4,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Toxtricity Amped Form": {
+    "battle": 0.3,
+    "collector": 0.2,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Toxtricity Low Key Form": {
+    "battle": 0.3,
+    "collector": 0.2,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Tranquill": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Trapinch": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0.2
+  },
+  "Treecko": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Trevenant": {
+    "battle": 0.4,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Tropius": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Trubbish": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Trumbeak": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Tsareena": {
+    "battle": 0.7,
+    "collector": 0.2,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Turtonator": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Turtwig": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Tympole": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0.2
+  },
+  "Tynamo": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0.2
+  },
+  "Type: Null": {
+    "battle": 0.3,
+    "collector": 0.2,
+    "breeder": 0,
+    "story": 0,
+    "popular": 0
+  },
+  "Typhlosion": {
+    "battle": 0.3,
+    "collector": 0.2,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Hisuian Typhlosion": {
+    "battle": 0.3,
+    "collector": 0.5,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Tyranitar": {
+    "battle": 0.7,
+    "collector": 0.2,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Mega Tyranitar": {
+    "battle": 0.7,
+    "collector": 0.5,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Tyrantrum": {
+    "battle": 0.7,
+    "collector": 0.2,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Tyrogue": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0,
+    "story": 0,
+    "popular": 0.2
+  },
+  "Tyrunt": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Umbreon": {
+    "battle": 0.3,
+    "collector": 0.2,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Unfezant": {
+    "battle": 0.4,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Unown": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0,
+    "story": 0,
+    "popular": 0
+  },
+  "Ursaluna": {
+    "battle": 0.7,
+    "collector": 0.2,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Ursaluna Bloodmoon": {
+    "battle": 0.7,
+    "collector": 0.2,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Ursaring": {
+    "battle": 0.4,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Urshifu Single Strike Style": {
+    "battle": 0.7,
+    "collector": 0.2,
+    "breeder": 0,
+    "story": 0,
+    "popular": 0
+  },
+  "Urshifu Rapid Strike Style": {
+    "battle": 0.7,
+    "collector": 0.2,
+    "breeder": 0,
+    "story": 0,
+    "popular": 0
+  },
+  "Uxie": {
+    "battle": 0.3,
+    "collector": 0.2,
+    "breeder": 0,
+    "story": 0,
+    "popular": 0
+  },
+  "Vanillish": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Vanillite": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Vanilluxe": {
+    "battle": 0.3,
+    "collector": 0.2,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Vaporeon": {
+    "battle": 0.3,
+    "collector": 0.2,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Varoom": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Veluza": {
+    "battle": 0.4,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Venipede": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0.2
+  },
+  "Venomoth": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Venonat": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Venusaur": {
+    "battle": 0.3,
+    "collector": 0.2,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Mega Venusaur": {
+    "battle": 0.7,
+    "collector": 0.5,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Vespiquen": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Vibrava": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Victini": {
+    "battle": 0.3,
+    "collector": 0.2,
+    "breeder": 0,
+    "story": 0,
+    "popular": 0
+  },
+  "Victreebel": {
+    "battle": 0.4,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Vigoroth": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Vikavolt": {
+    "battle": 0.4,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Vileplume": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Virizion": {
+    "battle": 0.7,
+    "collector": 0.2,
+    "breeder": 0,
+    "story": 0,
+    "popular": 0
+  },
+  "Vivillon": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Volbeat": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Volcanion": {
+    "battle": 0.7,
+    "collector": 0.2,
+    "breeder": 0,
+    "story": 0,
+    "popular": 0
+  },
+  "Volcarona": {
+    "battle": 0.7,
+    "collector": 0.2,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Voltorb": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Hisuian Voltorb": {
+    "battle": 0,
+    "collector": 0.3,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Vullaby": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Vulpix": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0.2
+  },
+  "Alolan Vulpix": {
+    "battle": 0,
+    "collector": 0.3,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0.2
+  },
+  "Wailmer": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Wailord": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Walking Wake": {
+    "battle": 0.7,
+    "collector": 0.2,
+    "breeder": 0,
+    "story": 0,
+    "popular": 0
+  },
+  "Walrein": {
+    "battle": 0.3,
+    "collector": 0.2,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Wartortle": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Watchog": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Wattrel": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0.2
+  },
+  "Weavile": {
+    "battle": 0.7,
+    "collector": 0.2,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Weedle": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0.2
+  },
+  "Weepinbell": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Weezing": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Galarian Weezing": {
+    "battle": 0,
+    "collector": 0.3,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Whimsicott": {
+    "battle": 0.4,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Whirlipede": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Whiscash": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Whismur": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0.2
+  },
+  "Wigglytuff": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Wiglett": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0.2
+  },
+  "Wimpod": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0.2
+  },
+  "Wingull": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0.2
+  },
+  "Wishiwashi Solo Form": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0.2
+  },
+  "Wishiwashi School Form": {
+    "battle": 0.7,
+    "collector": 0.2,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Wo-Chien": {
+    "battle": 0.3,
+    "collector": 0.2,
+    "breeder": 0,
+    "story": 0,
+    "popular": 0
+  },
+  "Wobbuffet": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Woobat": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Wooloo": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0.2
+  },
+  "Wooper": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0.2
+  },
+  "Paldean Wooper": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0.2
+  },
+  "Wormadam Plant Cloak": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Wormadam Sandy Cloak": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Wormadam Trash Cloak": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Wugtrio": {
+    "battle": 0.4,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Wurmple": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0.2
+  },
+  "Wynaut": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0,
+    "story": 0,
+    "popular": 0.2
+  },
+  "Wyrdeer": {
+    "battle": 0.7,
+    "collector": 0.2,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Xatu": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Xerneas": {
+    "battle": 0.7,
+    "collector": 0.2,
+    "breeder": 0,
+    "story": 0,
+    "popular": 0
+  },
+  "Xurkitree": {
+    "battle": 0.7,
+    "collector": 0.2,
+    "breeder": 0,
+    "story": 0,
+    "popular": 0
+  },
+  "Yamask": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Galarian Yamask": {
+    "battle": 0,
+    "collector": 0.3,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Yamper": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0.2
+  },
+  "Yanma": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Yanmega": {
+    "battle": 0.3,
+    "collector": 0.2,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Yungoos": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0.2
+  },
+  "Yveltal": {
+    "battle": 0.7,
+    "collector": 0.2,
+    "breeder": 0,
+    "story": 0,
+    "popular": 0
+  },
+  "Zacian Hero of Many Battles": {
+    "battle": 0.7,
+    "collector": 0.2,
+    "breeder": 0,
+    "story": 0,
+    "popular": 0
+  },
+  "Zacian Crowned Sword": {
+    "battle": 0.7,
+    "collector": 0.2,
+    "breeder": 0,
+    "story": 0,
+    "popular": 0
+  },
+  "Zamazenta Hero of Many Battles": {
+    "battle": 0.7,
+    "collector": 0.2,
+    "breeder": 0,
+    "story": 0,
+    "popular": 0
+  },
+  "Zamazenta Crowned Shield": {
+    "battle": 0.7,
+    "collector": 0.2,
+    "breeder": 0,
+    "story": 0,
+    "popular": 0
+  },
+  "Zangoose": {
+    "battle": 0.4,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Zapdos": {
+    "battle": 0.7,
+    "collector": 0.2,
+    "breeder": 0,
+    "story": 0,
+    "popular": 0
+  },
+  "Galarian Zapdos": {
+    "battle": 0.7,
+    "collector": 0.5,
+    "breeder": 0,
+    "story": 0,
+    "popular": 0
+  },
+  "Zarude": {
+    "battle": 0.7,
+    "collector": 0.2,
+    "breeder": 0,
+    "story": 0,
+    "popular": 0
+  },
+  "Zebstrika": {
+    "battle": 0.4,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Zekrom": {
+    "battle": 0.7,
+    "collector": 0.2,
+    "breeder": 0,
+    "story": 0,
+    "popular": 0
+  },
+  "Zeraora": {
+    "battle": 0.7,
+    "collector": 0.2,
+    "breeder": 0,
+    "story": 0,
+    "popular": 0
+  },
+  "Zigzagoon": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0.2
+  },
+  "Galarian Zigzagoon": {
+    "battle": 0,
+    "collector": 0.3,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0.2
+  },
+  "Zoroark": {
+    "battle": 0.7,
+    "collector": 0.2,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Hisuian Zoroark": {
+    "battle": 0.7,
+    "collector": 0.5,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Zorua": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Hisuian Zorua": {
+    "battle": 0,
+    "collector": 0.3,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Zubat": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0.2
+  },
+  "Zweilous": {
+    "battle": 0,
+    "collector": 0,
+    "breeder": 0.2,
+    "story": 0,
+    "popular": 0
+  },
+  "Zygarde 50% Forme": {
+    "battle": 0.3,
+    "collector": 0.2,
+    "breeder": 0,
+    "story": 0,
+    "popular": 0
+  },
+  "Zygarde 10% Forme": {
+    "battle": 0.4,
+    "collector": 0,
+    "breeder": 0,
+    "story": 0,
+    "popular": 0
+  },
+  "Zygarde Complete Forme": {
+    "battle": 0.3,
+    "collector": 0.2,
+    "breeder": 0,
+    "story": 0,
+    "popular": 0
+  }
+}

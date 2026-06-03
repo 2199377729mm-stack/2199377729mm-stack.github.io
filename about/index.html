@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>关于 - 宝可梦档案馆</title>
+    <link rel="stylesheet" href="../assets/css/common.css">
+    <style>
+        .about-page {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+        .about-page h1 {
+            font-size: 2.5rem;
+            margin-bottom: 30px;
+            color: #E3350D;
+        }
+        .about-page h2 {
+            font-size: 1.5rem;
+            margin: 40px 0 20px;
+            color: #333;
+        }
+        .about-page p {
+            font-size: 1.1rem;
+            line-height: 1.8;
+            color: #555;
+            margin-bottom: 20px;
+        }
+        .about-page ul {
+            margin-left: 20px;
+        }
+        .about-page li {
+            font-size: 1.1rem;
+            line-height: 1.8;
+            color: #555;
+            margin-bottom: 10px;
+        }
+        .feature-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            margin: 30px 0;
+        }
+        .feature-card {
+            background: white;
+            padding: 30px 20px;
+            border-radius: 15px;
+            text-align: center;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+        }
+        .feature-icon {
+            font-size: 3rem;
+            margin-bottom: 15px;
+        }
+        .feature-card h3 {
+            margin-bottom: 10px;
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <span>🎮</span>
+                <span>宝可梦档案馆</span>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="../index.html">首页</a></li>
+                    <li><a href="../browse/generation.html">世代</a></li>
+                    <li><a href="../browse/type.html">属性</a></li>
+                    <li><a href="../browse/category.html">分类</a></li>
+                    <li><a href="../user/collection.html">我的收藏</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="about-page">
+            <h1>关于宝可梦档案馆</h1>
+            
+            <p>欢迎来到宝可梦档案馆！这是一个为宝可梦爱好者打造的百科全书式网站，汇集了丰富的宝可梦信息。</p>
+            
+            <div class="feature-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">🧠</div>
+                    <h3>玩家画像</h3>
+                    <p>通过简单的问答，发现你的训练家类型！</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">📊</div>
+                    <h3>个性推荐</h3>
+                    <p>根据你的偏好，推荐最适合你的宝可梦！</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">❤️</div>
+                    <h3>收藏功能</h3>
+                    <p>收藏你喜欢的宝可梦，随时查看！</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🎨</div>
+                    <h3>精美界面</h3>
+                    <p>现代化的设计，优秀的用户体验！</p>
+                </div>
+            </div>
+            
+            <h2>主要功能</h2>
+            <ul>
+                <li><strong>玩家画像测试</strong> - 回答几个简单问题，了解你的训练家类型</li>
+                <li><strong>个性化首页</strong> - 根据你的偏好定制的首页体验</li>
+                <li><strong>智能推荐</strong> - 基于你的画像推荐宝可梦</li>
+                <li><strong>宝可梦详情</strong> - 查看种族值、能力雷达图等详细信息</li>
+                <li><strong>多维度浏览</strong> - 按世代、属性、分类浏览所有宝可梦</li>
+                <li><strong>收藏管理</strong> - 收藏你喜欢的宝可梦，创建专属收藏夹</li>
+                <li><strong>搜索筛选</strong> - 快速找到你想找的宝可梦</li>
+            </ul>
+            
+            <h2>说明</h2>
+            <p>本网站使用宝可梦相关的CSV数据文件来展示宝可梦信息。您需要将宝可梦数据文件放置在 <code>assets/js/data/pokedex.csv</code> 位置才能完整使用所有功能。</p>
+            <p>宝可梦图片资源需要放置在 <code>assets/images/pokemon/</code> 目录下。</p>
+            
+            <h2>技术栈</h2>
+            <ul>
+                <li>HTML5 + CSS3 + JavaScript (ES6+)</li>
+                <li>Chart.js (数据可视化)</li>
+                <li>LocalStorage (本地数据存储)</li>
+            </ul>
+            
+            <p style="margin-top: 40px; text-align: center; color: #999;">
+                © 2026 宝可梦档案馆 | 非官方粉丝项目
+            </p>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>© 2026 宝可梦档案馆 | <a href="index.html">关于</a> | <a href="../help/guide.html">帮助</a></p>
+        </div>
+    </footer>
+</body>
+</html>

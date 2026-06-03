@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>帮助 - 宝可梦档案馆</title>
+    <link rel="stylesheet" href="../assets/css/common.css">
+    <style>
+        .help-page {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+        .help-page h1 {
+            font-size: 2.5rem;
+            margin-bottom: 30px;
+            color: #E3350D;
+        }
+        .help-page h2 {
+            font-size: 1.5rem;
+            margin: 40px 0 20px;
+            color: #333;
+        }
+        .help-page p {
+            font-size: 1.1rem;
+            line-height: 1.8;
+            color: #555;
+            margin-bottom: 20px;
+        }
+        .help-page ol {
+            margin-left: 20px;
+        }
+        .help-page li {
+            font-size: 1.1rem;
+            line-height: 1.8;
+            color: #555;
+            margin-bottom: 15px;
+        }
+        .faq-item {
+            background: white;
+            border-radius: 10px;
+            padding: 25px;
+            margin-bottom: 15px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+        }
+        .faq-question {
+            font-weight: 600;
+            font-size: 1.2rem;
+            color: #333;
+            margin-bottom: 10px;
+        }
+        .faq-answer {
+            color: #666;
+            line-height: 1.8;
+        }
+        .code-box {
+            background: #f5f5f5;
+            padding: 15px;
+            border-radius: 8px;
+            font-family: monospace;
+            margin: 15px 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <span>🎮</span>
+                <span>宝可梦档案馆</span>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="../index.html">首页</a></li>
+                    <li><a href="../browse/generation.html">世代</a></li>
+                    <li><a href="../browse/type.html">属性</a></li>
+                    <li><a href="../browse/category.html">分类</a></li>
+                    <li><a href="../user/collection.html">我的收藏</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="help-page">
+            <h1>使用帮助</h1>
+            
+            <h2>快速开始</h2>
+            <ol>
+                <li><strong>首次访问</strong> - 访问首页后，点击"开始发现之旅"进行玩家画像测试</li>
+                <li><strong>完成问答</strong> - 回答3个简单问题，确定你的训练家类型</li>
+                <li><strong>探索图鉴</strong> - 进入个性化首页，浏览为你推荐的宝可梦</li>
+                <li><strong>收藏宝可梦</strong> - 在宝可梦详情页点击收藏按钮，添加到你的收藏夹</li>
+            </ol>
+            
+            <h2>数据文件准备</h2>
+            <p>为了完整使用本网站的所有功能，您需要准备以下文件：</p>
+            <div class="code-box">
+                <strong>宝可梦数据文件：</strong><br>
+                位置：assets/js/data/pokedex.csv<br><br>
+                <strong>宝可梦图片文件：</strong><br>
+                位置：assets/images/pokemon/official/&lt;编号&gt;_&lt;英文名&gt;_official.png<br>
+                示例：assets/images/pokemon/official/001_bulbasaur_official.png
+            </div>
+            
+            <h2>常见问题</h2>
+            
+            <div class="faq-item">
+                <div class="faq-question">Q: 为什么看不到宝可梦图片？</div>
+                <div class="faq-answer">A: 宝可梦图片需要您自行准备并放置在正确的目录下。如果图片不存在，网站会显示一个占位图。图片路径规则是：assets/images/pokemon/official/{编号}_{英文名称}_official.png</div>
+            </div>
+            
+            <div class="faq-item">
+                <div class="faq-question">Q: 如何重新进行玩家画像测试？</div>
+                <div class="faq-answer">A: 在首页点击右上角的"重新测试"按钮，或者在个性化首页点击标签旁边的"重新测试"按钮即可重新进行测试。</div>
+            </div>
+            
+            <div class="faq-item">
+                <div class="faq-question">Q: 收藏的宝可梦会丢失吗？</div>
+                <div class="faq-answer">A: 收藏数据存储在浏览器的LocalStorage中。如果您清除浏览器数据或使用隐私模式，收藏可能会丢失。建议定期备份您的收藏。</div>
+            </div>
+            
+            <div class="faq-item">
+                <div class="faq-question">Q: 如何编辑pokemon_tags.json来自定义推荐？</div>
+                <div class="faq-answer">A: pokemon_tags.json文件位于assets/js/data/目录下。您可以编辑此文件，为每个宝可梦分配不同的标签权重，来调整推荐算法的行为。</div>
+            </div>
+            
+            <div class="faq-item">
+                <div class="faq-question">Q: 为什么详情页的布局会变化？</div>
+                <div class="faq-answer">A: 详情页会根据您的玩家画像来调整内容布局。比如，如果您是对战型玩家，种族值图表会优先显示；如果您是剧情型玩家，图鉴介绍会优先显示。</div>
+            </div>
+            
+            <h2>浏览方式</h2>
+            <p>您可以通过多种方式浏览宝可梦：</p>
+            <ul style="font-size: 1.1rem; line-height: 1.8; color: #555; margin-left: 20px;">
+                <li><strong>按世代</strong> - 查看每个世代的宝可梦</li>
+                <li><strong>按属性</strong> - 按18种属性筛选宝可梦</li>
+                <li><strong>按分类</strong> - 查看传说、热门等特殊分类</li>
+                <li><strong>搜索</strong> - 在首页使用搜索框按名称或编号搜索</li>
+            </ul>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>© 2026 宝可梦档案馆 | <a href="../about/index.html">关于</a> | <a href="guide.html">帮助</a></p>
+        </div>
+    </footer>
+</body>
+</html>

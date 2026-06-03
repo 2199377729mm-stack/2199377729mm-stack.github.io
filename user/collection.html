@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>我的收藏 - 宝可梦档案馆</title>
+    <link rel="stylesheet" href="../assets/css/common.css">
+    <link rel="stylesheet" href="../assets/css/collection.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <span>🎮</span>
+                <span>宝可梦档案馆</span>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="../index.html">首页</a></li>
+                    <li><a href="../browse/generation.html">世代</a></li>
+                    <li><a href="../browse/type.html">属性</a></li>
+                    <li><a href="../browse/category.html">分类</a></li>
+                    <li><a href="collection.html">我的收藏</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <div class="collection-header">
+                <h1>我的收藏</h1>
+                <div class="collection-stats">
+                    <span id="collection-count">0</span> 只宝可梦
+                </div>
+            </div>
+            
+            <div class="sort-options">
+                <button class="sort-btn active" data-sort="added">收藏时间</button>
+                <button class="sort-btn" data-sort="number">编号</button>
+                <button class="sort-btn" data-sort="name">名称</button>
+            </div>
+            
+            <div id="collection-grid" class="pokemon-grid">
+            </div>
+            
+            <div id="empty-collection" class="empty-state" style="display: none;">
+                <div class="empty-icon">📦</div>
+                <h2>还没有收藏任何宝可梦</h2>
+                <p>浏览宝可梦并点击收藏按钮来添加它们！</p>
+                <a href="../index.html" class="btn btn-primary" style="display: inline-block; margin-top: 20px;">开始探索</a>
+            </div>
+            
+            <div class="warning-box">
+                ⚠️ 提示：收藏数据存储在浏览器本地，如果清除浏览器数据，收藏可能会丢失。
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>© 2026 宝可梦档案馆 | <a href="../about/index.html">关于</a> | <a href="../help/guide.html">帮助</a></p>
+        </div>
+    </footer>
+
+    <script src="../assets/js/modules/dataLoader.js?v=2"></script>
+    <script src="../assets/js/modules/imageHelper.js"></script>
+    <script src="../assets/js/modules/collectionManager.js"></script>
+    <script src="../assets/js/modules/render.js"></script>
+    <script src="../assets/js/collection.js"></script>
+</body>
+</html>

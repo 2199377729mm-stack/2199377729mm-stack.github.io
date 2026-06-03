@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>宝可梦档案馆</title>
+    <link rel="stylesheet" href="assets/css/common.css">
+    <link rel="stylesheet" href="assets/css/home.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <span>🎮</span>
+                <span>宝可梦档案馆</span>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">首页</a></li>
+                    <li><a href="browse/generation.html">世代</a></li>
+                    <li><a href="browse/type.html">属性</a></li>
+                    <li><a href="browse/category.html">分类</a></li>
+                    <li><a href="user/collection.html">我的收藏</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <div id="app">
+                <div id="state-welcome" class="state active">
+                    <div class="welcome-screen">
+                        <h1>欢迎来到宝可梦档案馆！</h1>
+                        <p>探索宝可梦世界，发现你的专属伙伴</p>
+                        <button class="btn btn-primary" onclick="startQuiz()">开始发现之旅</button>
+                    </div>
+                </div>
+
+                <div id="state-quiz" class="state">
+                    <div class="quiz-screen">
+                        <div class="progress-bar">
+                            <div id="progress-fill" class="progress-fill"></div>
+                        </div>
+                        <div id="quiz-container">
+                            <h2 id="quiz-question"></h2>
+                            <div id="quiz-options" class="options-grid"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="state-result" class="state">
+                    <div class="result-screen">
+                        <h1>你是<span id="player-type"></span>型玩家！</h1>
+                        <p id="player-description"></p>
+                        <div id="representative-pokemon"></div>
+                        <div class="result-buttons">
+                            <button class="btn btn-primary" onclick="goToHome()">进入我的图鉴</button>
+                            <button class="btn btn-secondary" onclick="restartQuiz()">重新测试</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="state-home" class="state">
+                    <div class="home-screen">
+                        <div class="profile-bar">
+                            <span>你的标签：<span id="profile-tag" class="type-badge"></span></span>
+                            <button class="btn btn-secondary" style="padding: 8px 16px; font-size: 0.9rem;" onclick="restartQuiz()">重新测试</button>
+                        </div>
+
+                        <div class="search-section">
+                            <input type="text" id="search-input" placeholder="按名称或编号搜索宝可梦..." oninput="handleSearch()">
+                        </div>
+
+                        <div class="filter-section">
+                            <button class="filter-btn active" data-filter="all">全部</button>
+                            <button class="filter-btn" data-filter="1">第1世代</button>
+                            <button class="filter-btn" data-filter="2">第2世代</button>
+                            <button class="filter-btn" data-filter="3">第3世代</button>
+                            <button class="filter-btn" data-filter="4">第4世代</button>
+                            <button class="filter-btn" data-filter="5">第5世代</button>
+                            <button class="filter-btn" data-filter="6">第6世代</button>
+                            <button class="filter-btn" data-filter="7">第7世代</button>
+                            <button class="filter-btn" data-filter="8">第8世代</button>
+                            <button class="filter-btn" data-filter="9">第9世代</button>
+                        </div>
+
+                        <h2>为你推荐</h2>
+                        <div id="recommended-grid" class="pokemon-grid"></div>
+
+                        <h2>全部宝可梦</h2>
+                        <div id="pokemon-grid" class="pokemon-grid"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>© 2026 宝可梦档案馆 | <a href="about/index.html">关于</a> | <a href="help/guide.html">帮助</a></p>
+        </div>
+    </footer>
+
+    <script src="assets/js/modules/dataLoader.js?v=2"></script>
+    <script src="assets/js/modules/imageHelper.js"></script>
+    <script src="assets/js/modules/profileEngine.js?v=2"></script>
+    <script src="assets/js/modules/recommendEngine.js"></script>
+    <script src="assets/js/modules/collectionManager.js"></script>
+    <script src="assets/js/modules/render.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+</html>

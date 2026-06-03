@@ -1,0 +1,22 @@
+{
+  "types": [
+    { "name": "火", "icon": "🔥", "color": "#FF6B35" },
+    { "name": "水", "icon": "💧", "color": "#4F9DFF" },
+    { "name": "草", "icon": "🌿", "color": "#4CAF50" },
+    { "name": "电", "icon": "⚡", "color": "#FFD700" },
+    { "name": "超能力", "icon": "🔮", "color": "#9C27B0" },
+    { "name": "普通", "icon": "⬜", "color": "#A8A878" },
+    { "name": "格斗", "icon": "🥊", "color": "#C03028" },
+    { "name": "飞行", "icon": "🕊️", "color": "#A890F0" },
+    { "name": "毒", "icon": "☠️", "color": "#A040A0" },
+    { "name": "地面", "icon": "🌍", "color": "#E0C068" },
+    { "name": "岩石", "icon": "🪨", "color": "#B8A038" },
+    { "name": "虫", "icon": "🐛", "color": "#A8B820" },
+    { "name": "幽灵", "icon": "👻", "color": "#705898" },
+    { "name": "钢", "icon": "🔩", "color": "#B8B8D0" },
+    { "name": "冰", "icon": "❄️", "color": "#98D8D8" },
+    { "name": "龙", "icon": "🐉", "color": "#7038F8" },
+    { "name": "恶", "icon": "🌑", "color": "#705848" },
+    { "name": "妖精", "icon": "✨", "color": "#EE99AC" }
+  ]
+}
