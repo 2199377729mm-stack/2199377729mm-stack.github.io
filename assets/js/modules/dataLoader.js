@@ -119,6 +119,8 @@ function parseNewCSV(text) {
     if (lines.length < 2) return [];
     
     const headers = parseCSVLine(lines[0]);
+    console.log('CSV Headers:', headers);
+    console.log('CSV Headers after camelCase:', headers.map(h => camelCase(h)));
     const data = [];
     
     let rowId = 1;
