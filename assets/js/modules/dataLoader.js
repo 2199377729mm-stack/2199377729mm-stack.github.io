@@ -160,9 +160,9 @@ function parseNewCSV(text) {
         obj.weightKg = obj['weight'] || '';
         obj.abilities = obj['abilities'] || '';
         
-        // 培育信息
-        obj.eggGroups = obj['eggGroups'] || obj['egg_groups'] || '';
-        obj.eggCycles = obj['eggCycles'] || obj['egg_cycles'] || '';
+        // 培育信息 - 检查多种可能的字段名格式
+        obj.eggGroups = obj['eggGroups'] || obj['egg_groups'] || obj['egg groups'] || '';
+        obj.eggCycles = obj['eggCycles'] || obj['egg_cycles'] || obj['egg cycles'] || '';
         obj.gender = obj['gender'] || '';
         
         data.push(obj);
