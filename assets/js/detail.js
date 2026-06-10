@@ -382,10 +382,6 @@ async function initDetail() {
 
 function renderDetail() {
     const container = document.getElementById('detail-container');
-    // 调试：检查容器中的现有内容
-    console.log('renderDetail called, container content length:', container.innerHTML.length);
-    console.log('renderDetail call count:', (window.renderCount = (window.renderCount || 0) + 1));
-    
     const profile = getProfile();
     const primaryType = profile ? profile.primaryType : null;
     
