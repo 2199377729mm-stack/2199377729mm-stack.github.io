@@ -1,7 +1,43 @@
 let currentPokemon = null;
 let statsChart = null;
 
+let pokemonNames = {};
+const typeNames = {
+    "Normal": "一般", "Fire": "火", "Water": "水", "Grass": "草",
+    "Electric": "电", "Ice": "冰", "Bug": "虫", "Flying": "飞行",
+    "Ground": "地面", "Rock": "岩石", "Fighting": "格斗", "Psychic": "超能力",
+    "Ghost": "幽灵", "Poison": "毒", "Dark": "恶", "Steel": "钢",
+    "Dragon": "龙", "Fairy": "妖精"
+};
+
+// 从JSON文件加载中文名称
+async function loadChineseNames() {
+    try {
+        const response = await fetch('/assets/js/data/pokemon_chinese_names.json');
+        if (response.ok) {
+            pokemonNames = await response.json();
+            console.log('中文名称数据加载成功，共 ' + Object.keys(pokemonNames).length + ' 条');
+        } else {
+            console.warn('加载中文名称失败，使用默认值');
+        }
+    } catch (error) {
+        console.warn('加载中文名称时发生错误:', error);
+    }
+}
+
+// 获取宝可梦中文名称
+function getChineseName(pokemon) {
+    const name = pokemon.pokemon || pokemon.name || '';
+    return pokemonNames[name] || null;
+}
+
+// 获取属性中文名称
+function getTypeChineseName(englishType) {
+    return typeNames[englishType] || englishType;
+}
+
 async function initDetail() {
+    await loadChineseNames();
     await loadPokemonData();
     
     const urlParams = new URLSearchParams(window.location.search);
@@ -36,9 +72,13 @@ function renderDetail() {
     const type1 = (currentPokemon.type1 || '').toLowerCase();
     const type2 = (currentPokemon.type2 || '').toLowerCase();
     
-    let typesHTML = `<span class="type-badge type-${type1}">${currentPokemon.type1 || 'Unknown'}</span>`;
+    // 获取中文属性名
+    const type1Chinese = getTypeChineseName(currentPokemon.type1);
+    const type2Chinese = getTypeChineseName(currentPokemon.type2);
+    
+    let typesHTML = `<span class="type-badge type-${type1}">${type1Chinese || '未知'}</span>`;
     if (type2) {
-        typesHTML += `<span class="type-badge type-${type2}">${currentPokemon.type2}</span>`;
+        typesHTML += `<span class="type-badge type-${type2}">${type2Chinese}</span>`;
     }
     
     const stats = [
@@ -79,13 +119,18 @@ function renderDetail() {
     
     sectionsHTML += renderDescriptionSection(sections.find(s => s.id === 'description')?.priority);
     
+    // 获取中文名称
+    const englishName = currentPokemon.pokemon || currentPokemon.name;
+    const chineseName = getChineseName(currentPokemon);
+    
     container.innerHTML = `
         <div class="detail-header">
             <div class="detail-image">
-                <img id="pokemon-image" alt="${currentPokemon.pokemon}">
+                <img id="pokemon-image" alt="${englishName}">
             </div>
             <div class="detail-info">
-                <h1>${currentPokemon.pokemon}</h1>
+                <h1>${englishName}</h1>
+                ${chineseName ? `<div class="chinese-name">${chineseName}</div>` : ''}
                 <div class="number">#${String(currentPokemon.pokedexNumber || currentPokemon.id).padStart(3, '0')}</div>
                 <div class="species">${currentPokemon.species || '未知宝可梦'}</div>
                 <div class="types">${typesHTML}</div>
