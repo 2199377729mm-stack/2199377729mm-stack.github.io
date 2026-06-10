@@ -162,10 +162,15 @@ function parseNewCSV(text) {
         obj.weightKg = obj['weight'] || '';
         obj.abilities = obj['abilities'] || '';
         
-        // 培育信息 - 检查多种可能的字段名格式
-        obj.eggGroups = obj['eggGroups'] || obj['egg_groups'] || obj['egg groups'] || '';
-        obj.eggCycles = obj['eggCycles'] || obj['egg_cycles'] || obj['egg cycles'] || '';
-        obj.gender = obj['gender'] || '';
+        // 培育信息 - 使用原始字段名直接访问（CSV中的字段名）
+        obj.eggGroups = obj['eggGroups'] || obj['egg_groups'] || obj['egg groups'] || obj['Egg Groups'] || obj['egg groups'] || '';
+        obj.eggCycles = obj['eggCycles'] || obj['egg_cycles'] || obj['egg cycles'] || obj['Egg Cycles'] || '';
+        obj.gender = obj['gender'] || obj['Gender'] || '';
+        
+        // 调试：检查培育信息是否正确加载
+        if (rowId === 1) {
+            console.log('培育信息字段测试:', 'eggGroups=', obj.eggGroups, ', eggCycles=', obj.eggCycles, ', gender=', obj.gender);
+        }
         
         data.push(obj);
         rowId++;
