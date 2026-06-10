@@ -160,6 +160,17 @@ function parseNewCSV(text) {
         obj.weightKg = obj['weight'] || '';
         obj.abilities = obj['abilities'] || '';
         
+        // 调试信息：检查前几个宝可梦的数据
+        if (rowId <= 3) {
+            console.log(`Pokemon ${rowId}:`, {
+                name: obj.pokemon,
+                species: obj.species,
+                height: obj.heightM,
+                weight: obj.weightKg,
+                abilities: obj.abilities
+            });
+        }
+        
         data.push(obj);
         rowId++;
     }
