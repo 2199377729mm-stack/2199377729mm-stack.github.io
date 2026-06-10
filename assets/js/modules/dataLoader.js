@@ -156,18 +156,15 @@ function parseNewCSV(text) {
         
         // 物理属性和特性
         obj.species = obj['species'] || '';
-        obj.heightM = obj['height'] || '';
-        obj.weightKg = obj['weight'] || '';
-        obj.abilities = obj['abilities'] || '';
+        obj.heightM = obj['height'] || '';  // CSV中的Height字段
+        obj.weightKg = obj['weight'] || '';  // CSV中的Weight字段
+        obj.abilities = obj['abilities'] || '';  // CSV中的Abilities字段
         
-        // 调试信息：检查前几个宝可梦的数据
-        if (rowId <= 3) {
-            console.log(`Pokemon ${rowId}:`, {
-                name: obj.pokemon,
-                species: obj.species,
-                height: obj.heightM,
-                weight: obj.weightKg,
-                abilities: obj.abilities
+        // 调试信息：检查第一个宝可梦的数据
+        if (rowId === 1) {
+            console.log('CSV解析示例数据:', {
+                原始字段: { species: obj['species'], height: obj['height'], weight: obj['weight'], abilities: obj['abilities'] },
+                映射后: { species: obj.species, heightM: obj.heightM, weightKg: obj.weightKg, abilities: obj.abilities }
             });
         }
         
