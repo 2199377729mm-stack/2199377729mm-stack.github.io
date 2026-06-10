@@ -419,17 +419,13 @@ function renderDetail() {
     
     let sectionsHTML = '';
     
-    if (sections.find(s => s.id === 'stats')?.priority) {
-        sectionsHTML += renderStatsSection(stats, true);
-    }
+    // 种族值条形图 - 只渲染一次
+    const statsPriority = sections.find(s => s.id === 'stats')?.priority;
+    sectionsHTML += renderStatsSection(stats, statsPriority);
     
-    if (sections.find(s => s.id === 'chart')?.priority) {
-        sectionsHTML += renderChartSection(true);
-    }
-    
-    sectionsHTML += renderStatsSection(stats, sections.find(s => s.id === 'stats')?.priority);
-    
-    sectionsHTML += renderChartSection(sections.find(s => s.id === 'chart')?.priority);
+    // 能力雷达图 - 只渲染一次
+    const chartPriority = sections.find(s => s.id === 'chart')?.priority;
+    sectionsHTML += renderChartSection(chartPriority);
     
     sectionsHTML += renderBreedingSection(sections.find(s => s.id === 'breeding')?.priority);
     
