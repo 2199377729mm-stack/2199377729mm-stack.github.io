@@ -146,12 +146,19 @@ function parseNewCSV(text) {
         obj.pokemon = pokemonName;
         obj.rowId = rowId;
         
+        // 基础属性
         obj.hpBase = obj['hpBase'] || obj['hp_base'] || '0';
         obj.attackBase = obj['attackBase'] || obj['attack_base'] || '0';
         obj.defenseBase = obj['defenseBase'] || obj['defense_base'] || '0';
         obj.spAttackBase = obj['spAttackBase'] || obj['spAttack_base'] || obj['spAttack'] || '0';
         obj.spDefenseBase = obj['spDefenseBase'] || obj['spDefense_base'] || obj['spDefense'] || '0';
         obj.speedBase = obj['speedBase'] || obj['speed_base'] || '0';
+        
+        // 物理属性和特性
+        obj.species = obj['species'] || '';
+        obj.heightM = obj['height'] || '';
+        obj.weightKg = obj['weight'] || '';
+        obj.abilities = obj['abilities'] || '';
         
         data.push(obj);
         rowId++;
