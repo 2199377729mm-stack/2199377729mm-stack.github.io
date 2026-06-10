@@ -377,6 +377,14 @@ function renderPokemonCard(pokemon, showRecommendation = false, recommendationRe
     const englishName = pokemon.pokemon || pokemon.name;
     const chineseName = getChineseName(pokemon);
     
+    // 获取分类信息
+    const species = pokemon.species || '';
+    
+    // 获取身高、体重、特性信息
+    const height = pokemon.heightM || pokemon.height || '';
+    const weight = pokemon.weightKg || pokemon.weight || '';
+    const abilities = pokemon.abilities || '';
+    
     // 检查是否已收藏
     const pokemonId = pokemon.pokedexNumber || pokemon.id;
     const isFavorite = typeof isCollected === 'function' && isCollected(pokemonId);
@@ -388,7 +396,15 @@ function renderPokemonCard(pokemon, showRecommendation = false, recommendationRe
         <img alt="${englishName}" class="pokemon-img">
         <div class="name">${englishName}</div>
         ${chineseName ? `<div class="chinese-name">${chineseName}</div>` : ''}
+        ${species ? `<div class="species">${species}</div>` : ''}
         <div class="types">${typesHTML}</div>
+        ${height || weight ? `
+            <div class="physical-stats">
+                ${height ? `<span class="stat-item">📏 ${height}</span>` : ''}
+                ${weight ? `<span class="stat-item">⚖️ ${weight}</span>` : ''}
+            </div>
+        ` : ''}
+        ${abilities ? `<div class="abilities">特性：${abilities}</div>` : ''}
         ${recommendationHTML}
     `;
     
