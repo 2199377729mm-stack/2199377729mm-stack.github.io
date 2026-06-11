@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>更多 - 宝可梦档案馆</title>
+    <link rel="stylesheet" href="assets/css/common.css">
+    <style>
+        .more-container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+        
+        .more-header {
+            text-align: center;
+            margin-bottom: 50px;
+        }
+        
+        .more-header h1 {
+            font-size: 2.5rem;
+            color: #e3350d;
+            margin-bottom: 10px;
+        }
+        
+        .more-header p {
+            color: #666;
+            font-size: 1.1rem;
+        }
+        
+        .more-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 30px;
+        }
+        
+        .more-card {
+            background: white;
+            border-radius: 16px;
+            padding: 30px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+            transition: transform 0.3s, box-shadow 0.3s;
+            cursor: pointer;
+            text-align: center;
+        }
+        
+        .more-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.12);
+        }
+        
+        .more-icon {
+            font-size: 3.5rem;
+            margin-bottom: 20px;
+        }
+        
+        .more-card h3 {
+            font-size: 1.4rem;
+            color: #333;
+            margin-bottom: 15px;
+        }
+        
+        .more-card p {
+            color: #666;
+            font-size: 0.95rem;
+            line-height: 1.6;
+        }
+        
+        .more-card .arrow {
+            display: inline-block;
+            margin-top: 20px;
+            color: #e3350d;
+            font-weight: bold;
+            opacity: 0;
+            transition: opacity 0.3s;
+        }
+        
+        .more-card:hover .arrow {
+            opacity: 1;
+        }
+        
+        .section-title {
+            font-size: 1.8rem;
+            color: #333;
+            margin: 50px 0 30px 0;
+            padding-bottom: 15px;
+            border-bottom: 2px solid #e3350d;
+        }
+        
+        /* 使用说明样式 */
+        .guide-section {
+            background: white;
+            border-radius: 16px;
+            padding: 30px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+        }
+        
+        .guide-item {
+            display: flex;
+            align-items: flex-start;
+            margin-bottom: 25px;
+            padding: 20px;
+            background: #f8f9fa;
+            border-radius: 12px;
+        }
+        
+        .guide-item:last-child {
+            margin-bottom: 0;
+        }
+        
+        .guide-number {
+            width: 36px;
+            height: 36px;
+            background: linear-gradient(135deg, #e3350d, #ff6b35);
+            color: white;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+            font-size: 1.2rem;
+            margin-right: 20px;
+            flex-shrink: 0;
+        }
+        
+        .guide-content h4 {
+            margin: 0 0 8px 0;
+            color: #333;
+            font-size: 1.1rem;
+        }
+        
+        .guide-content p {
+            margin: 0;
+            color: #666;
+            font-size: 0.95rem;
+        }
+        
+        /* 反馈表单样式 */
+        .feedback-section {
+            background: white;
+            border-radius: 16px;
+            padding: 30px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+        }
+        
+        .feedback-form {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+        
+        .form-group {
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .form-group label {
+            font-weight: bold;
+            color: #333;
+            margin-bottom: 8px;
+        }
+        
+        .form-group input,
+        .form-group textarea {
+            padding: 12px 15px;
+            border: 2px solid #e0e0e0;
+            border-radius: 8px;
+            font-size: 1rem;
+            transition: border-color 0.3s;
+        }
+        
+        .form-group input:focus,
+        .form-group textarea:focus {
+            outline: none;
+            border-color: #e3350d;
+        }
+        
+        .form-group textarea {
+            min-height: 150px;
+            resize: vertical;
+        }
+        
+        .submit-btn {
+            background: linear-gradient(135deg, #e3350d, #ff6b35);
+            color: white;
+            border: none;
+            padding: 15px 30px;
+            border-radius: 8px;
+            font-size: 1.1rem;
+            font-weight: bold;
+            cursor: pointer;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+        
+        .submit-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 15px rgba(227, 53, 13, 0.3);
+        }
+        
+        .submit-btn:active {
+            transform: translateY(0);
+        }
+        
+        .feedback-success {
+            display: none;
+            background: #d4edda;
+            color: #155724;
+            padding: 15px 20px;
+            border-radius: 8px;
+            margin-top: 20px;
+            text-align: center;
+        }
+        
+        /* 资源列表样式 */
+        .resources-section {
+            background: white;
+            border-radius: 16px;
+            padding: 30px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+        }
+        
+        .resources-list {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+        
+        .resource-item {
+            display: flex;
+            align-items: center;
+            padding: 15px 20px;
+            background: #f8f9fa;
+            border-radius: 10px;
+            margin-bottom: 12px;
+            transition: background 0.3s;
+        }
+        
+        .resource-item:last-child {
+            margin-bottom: 0;
+        }
+        
+        .resource-item:hover {
+            background: #e9ecef;
+        }
+        
+        .resource-icon {
+            font-size: 1.5rem;
+            margin-right: 15px;
+        }
+        
+        .resource-info {
+            flex: 1;
+        }
+        
+        .resource-info h4 {
+            margin: 0 0 5px 0;
+            color: #333;
+        }
+        
+        .resource-info p {
+            margin: 0;
+            color: #666;
+            font-size: 0.85rem;
+        }
+        
+        .resource-link {
+            color: #e3350d;
+            font-size: 1.2rem;
+            text-decoration: none;
+        }
+        
+        .resource-link:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <span>🎮</span>
+                <span>宝可梦档案馆</span>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">首页</a></li>
+                    <li><a href="news.html">资讯</a></li>
+                    <li><a href="browse/generation.html">世代</a></li>
+                    <li><a href="browse/type.html">属性</a></li>
+                    <li><a href="browse/category.html">分类</a></li>
+                    <li><a href="user/collection.html">我的收藏</a></li>
+                    <li><a href="more.html" class="active">更多</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="more-container">
+            <div class="more-header">
+                <h1>📋 更多</h1>
+                <p>探索更多功能和资源</p>
+            </div>
+
+            <!-- 使用说明 -->
+            <h2 class="section-title">📖 使用说明</h2>
+            <div class="guide-section">
+                <div class="guide-item">
+                    <div class="guide-number">1</div>
+                    <div class="guide-content">
+                        <h4>浏览宝可梦</h4>
+                        <p>通过导航栏的"世代"、"属性"或"分类"入口，浏览不同类型的宝可梦卡片。点击卡片可查看详细信息。</p>
+                    </div>
+                </div>
+                <div class="guide-item">
+                    <div class="guide-number">2</div>
+                    <div class="guide-content">
+                        <h4>查看详情</h4>
+                        <p>点击任意宝可梦卡片可进入详情页面，查看完整的种族值、能力雷达图、图鉴介绍和进化链信息。</p>
+                    </div>
+                </div>
+                <div class="guide-item">
+                    <div class="guide-number">3</div>
+                    <div class="guide-content">
+                        <h4>收藏宝可梦</h4>
+                        <p>在宝可梦详情页面点击"添加到收藏"按钮，将喜欢的宝可梦加入收藏列表，方便随时查看。</p>
+                    </div>
+                </div>
+                <div class="guide-item">
+                    <div class="guide-number">4</div>
+                    <div class="guide-content">
+                        <h4>获取资讯</h4>
+                        <p>点击导航栏的"资讯"入口，查看最新的宝可梦游戏资讯和相关网站推荐。</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 提交反馈 -->
+            <h2 class="section-title">💬 提交反馈</h2>
+            <div class="feedback-section">
+                <form class="feedback-form" id="feedbackForm">
+                    <div class="form-group">
+                        <label for="feedbackName">您的昵称</label>
+                        <input type="text" id="feedbackName" placeholder="请输入昵称" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="feedbackEmail">联系邮箱（选填）</label>
+                        <input type="email" id="feedbackEmail" placeholder="用于回复您的反馈">
+                    </div>
+                    <div class="form-group">
+                        <label for="feedbackContent">反馈内容</label>
+                        <textarea id="feedbackContent" placeholder="请描述您的建议或遇到的问题..." required></textarea>
+                    </div>
+                    <button type="submit" class="submit-btn">提交反馈</button>
+                </form>
+                <div class="feedback-success" id="feedbackSuccess">
+                    ✅ 反馈提交成功！感谢您的建议，我们会认真处理。
+                </div>
+            </div>
+
+            <!-- 资源列表 -->
+            <h2 class="section-title">🔗 资源列表</h2>
+            <div class="resources-section">
+                <ul class="resources-list">
+                    <li class="resource-item">
+                        <span class="resource-icon">🎮</span>
+                        <div class="resource-info">
+                            <h4>PokeAPI</h4>
+                            <p>官方宝可梦数据API，提供全面的宝可梦信息</p>
+                        </div>
+                        <a href="https://pokeapi.co/" target="_blank" class="resource-link">↗</a>
+                    </li>
+                    <li class="resource-item">
+                        <span class="resource-icon">📚</span>
+                        <div class="resource-info">
+                            <h4>Bulbapedia</h4>
+                            <p>宝可梦百科全书，详细的宝可梦资料数据库</p>
+                        </div>
+                        <a href="https://bulbapedia.bulbagarden.net/" target="_blank" class="resource-link">↗</a>
+                    </li>
+                    <li class="resource-item">
+                        <span class="resource-icon">🌐</span>
+                        <div class="resource-info">
+                            <h4>Serebii.net</h4>
+                            <p>权威宝可梦资讯网站，游戏攻略和图鉴数据</p>
+                        </div>
+                        <a href="https://www.serebii.net/" target="_blank" class="resource-link">↗</a>
+                    </li>
+                    <li class="resource-item">
+                        <span class="resource-icon">🎯</span>
+                        <div class="resource-info">
+                            <h4>Pokémon Showdown</h4>
+                            <p>宝可梦对战模拟器，在线对战平台</p>
+                        </div>
+                        <a href="https://play.pokemonshowdown.com/" target="_blank" class="resource-link">↗</a>
+                    </li>
+                    <li class="resource-item">
+                        <span class="resource-icon">🔍</span>
+                        <div class="resource-info">
+                            <h4>Pokémon Database</h4>
+                            <p>宝可梦数据库，包含全世代宝可梦信息</p>
+                        </div>
+                        <a href="https://pokemondb.net/" target="_blank" class="resource-link">↗</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 宝可梦档案馆 - 收集所有宝可梦的资料</p>
+        </div>
+    </footer>
+
+    <script>
+        document.getElementById('feedbackForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            
+            const name = document.getElementById('feedbackName').value;
+            const email = document.getElementById('feedbackEmail').value;
+            const content = document.getElementById('feedbackContent').value;
+            
+            console.log('反馈信息:', { name, email, content });
+            
+            document.getElementById('feedbackForm').style.display = 'none';
+            document.getElementById('feedbackSuccess').style.display = 'block';
+        });
+    </script>
+</body>
+</html>
