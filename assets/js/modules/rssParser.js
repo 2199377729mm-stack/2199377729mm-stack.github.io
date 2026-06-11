@@ -59,28 +59,56 @@ function formatDate(dateString) {
  * @returns {Promise<Array>} - 资讯列表
  */
 async function getPokemonNews() {
+    // 默认返回模拟数据
+    let newsItems = getMockNews();
+    
     try {
         console.log('Fetching Pokemon news from Serebii.net...');
         
-        // 使用 CORS 代理获取 RSS Feed
-        const response = await fetch(CORS_PROXY + encodeURIComponent(RSS_FEEDS.serebiiRss));
+        // 使用多个 CORS 代理备选
+        const proxies = [
+            'https://api.allorigins.win/raw?url=',
+            'https://corsproxy.io/?url=',
+            'https://cors-anywhere.herokuapp.com/'
+        ];
         
-        if (!response.ok) {
-            throw new Error(`Failed to fetch news: ${response.status}`);
+        let success = false;
+        
+        for (let i = 0; i < proxies.length && !success; i++) {
+            try {
+                console.log(`Trying proxy ${i + 1}: ${proxies[i]}`);
+                const response = await fetch(proxies[i] + encodeURIComponent(RSS_FEEDS.serebiiRss));
+                
+                if (response.ok) {
+                    const xmlString = await response.text();
+                    console.log('Received XML data:', xmlString.substring(0, 200) + '...');
+                    
+                    const parsedItems = parseRSS(xmlString);
+                    
+                    // 如果解析到有效数据，使用真实数据
+                    if (parsedItems.length > 0) {
+                        newsItems = parsedItems;
+                        success = true;
+                        console.log(`Successfully fetched ${newsItems.length} news items from Serebii.net`);
+                    } else {
+                        console.log('Parsed empty result, using mock data');
+                    }
+                }
+            } catch (proxyError) {
+                console.warn(`Proxy ${i + 1} failed:`, proxyError.message);
+            }
         }
-        
-        const xmlString = await response.text();
-        const newsItems = parseRSS(xmlString);
-        
-        console.log(`Successfully fetched ${newsItems.length} news items`);
-        return newsItems;
         
     } catch (error) {
         console.error('Error fetching news:', error);
-        
-        // 如果 RSS Feed 失败，返回模拟数据
-        return getMockNews();
     }
+    
+    // 确保至少返回模拟数据
+    if (!newsItems || newsItems.length === 0) {
+        newsItems = getMockNews();
+    }
+    
+    return newsItems;
 }
 
 /**
