@@ -647,7 +647,11 @@ function parseEvolutionChain(chain) {
         // 递归处理下一个进化阶段
         if (node.evolves_to && node.evolves_to.length > 0) {
             for (const nextNode of node.evolves_to) {
-                traverseChain(nextNode, stage + 1);
+                // 检查是否已经添加过这个宝可梦（防止重复）
+                const nextId = nextNode.species.url.split('/').slice(-2, -1)[0];
+                if (!result.some(item => item.id === nextId)) {
+                    traverseChain(nextNode, stage + 1);
+                }
             }
         }
     }
