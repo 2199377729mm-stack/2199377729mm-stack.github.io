@@ -411,7 +411,6 @@ function renderDetail() {
     const sections = [
         { id: 'stats', title: '种族值', priority: ['battle'].includes(primaryType) },
         { id: 'chart', title: '能力雷达图', priority: ['battle'].includes(primaryType) },
-        { id: 'breeding', title: '培育信息', priority: ['breeder'].includes(primaryType) },
         { id: 'description', title: '图鉴介绍', priority: ['story'].includes(primaryType) }
     ];
     
@@ -498,33 +497,6 @@ function renderChartSection(highlighted = false) {
             <h2>能力雷达图</h2>
             <div class="chart-container">
                 <canvas id="radar-chart"></canvas>
-            </div>
-        </div>
-    `;
-}
-
-function renderBreedingSection(highlighted = false) {
-    // 从 currentPokemon 中获取培育信息
-    const eggGroups = currentPokemon.eggGroups || currentPokemon['eggGroups'] || '未知';
-    const eggCycles = currentPokemon.eggCycles || currentPokemon['eggCycles'] || '未知';
-    const gender = currentPokemon.gender || currentPokemon['gender'] || '未知';
-    
-    return `
-        <div class="detail-section ${highlighted ? 'highlighted' : ''}">
-            <h2>培育信息</h2>
-            <div class="breeding-info">
-                <div class="breeding-item">
-                    <label>蛋组</label>
-                    <div class="value">${eggGroups}</div>
-                </div>
-                <div class="breeding-item">
-                    <label>孵化步数</label>
-                    <div class="value">${eggCycles}</div>
-                </div>
-                <div class="breeding-item">
-                    <label>性别比例</label>
-                    <div class="value">${gender}</div>
-                </div>
             </div>
         </div>
     `;
