@@ -411,6 +411,7 @@ function renderDetail() {
     const sections = [
         { id: 'stats', title: '种族值', priority: ['battle'].includes(primaryType) },
         { id: 'chart', title: '能力雷达图', priority: ['battle'].includes(primaryType) },
+        { id: 'evolution', title: '进化链', priority: false },
         { id: 'description', title: '图鉴介绍', priority: ['story'].includes(primaryType) }
     ];
     
@@ -425,6 +426,8 @@ function renderDetail() {
     // 能力雷达图 - 只渲染一次
     const chartPriority = sections.find(s => s.id === 'chart')?.priority;
     sectionsHTML += renderChartSection(chartPriority);
+    
+    sectionsHTML += renderEvolutionSection();
     
     sectionsHTML += renderDescriptionSection(sections.find(s => s.id === 'description')?.priority);
     
@@ -470,6 +473,8 @@ function renderDetail() {
         renderRadarChart(stats);
         // 加载图鉴信息
         loadAndDisplayPokedexInfo();
+        // 加载进化链
+        loadAndDisplayEvolutionChain();
     }, 100);
 }
 
@@ -552,6 +557,136 @@ async function loadAndDisplayPokedexInfo() {
     } catch (error) {
         console.error('Failed to load pokedex info:', error);
     }
+}
+
+// 渲染进化链区域
+function renderEvolutionSection() {
+    return `
+        <div class="detail-section" id="evolution-section">
+            <h2>进化链</h2>
+            <div class="evolution-chain" id="evolution-chain">
+                <p class="loading-text">正在加载进化链...</p>
+            </div>
+        </div>
+    `;
+}
+
+// 异步加载并显示进化链
+async function loadAndDisplayEvolutionChain() {
+    const pokemonId = currentPokemon.pokedexNumber || currentPokemon.id;
+    if (!pokemonId) return;
+    
+    try {
+        console.log('Loading evolution chain for Pokemon', pokemonId);
+        const evolutionData = await getEvolutionChain(pokemonId);
+        
+        if (!evolutionData) {
+            console.log('No evolution data found');
+            return;
+        }
+        
+        const evolutionChain = parseEvolutionChain(evolutionData.chain);
+        console.log('Parsed evolution chain:', evolutionChain);
+        
+        // 更新进化链显示
+        const evolutionContainer = document.getElementById('evolution-chain');
+        if (evolutionContainer) {
+            evolutionContainer.innerHTML = renderEvolutionChainHTML(evolutionChain);
+        }
+    } catch (error) {
+        console.error('Failed to load evolution chain:', error);
+    }
+}
+
+// 解析进化链数据
+function parseEvolutionChain(chain) {
+    const result = [];
+    
+    function traverseChain(node, stage = 0) {
+        if (!node) return;
+        
+        const pokemonName = node.species.name;
+        const pokemonId = node.species.url.split('/').slice(-2, -1)[0];
+        
+        const evolutionInfo = {
+            name: pokemonName,
+            id: pokemonId,
+            stage: stage,
+            trigger: null,
+            condition: null
+        };
+        
+        // 获取进化条件
+        if (node.evolution_details && node.evolution_details.length > 0) {
+            const detail = node.evolution_details[0];
+            evolutionInfo.trigger = detail.trigger ? detail.trigger.name : null;
+            
+            // 构建进化条件文本
+            const conditions = [];
+            if (detail.min_level) conditions.push(`Lv.${detail.min_level}`);
+            if (detail.item) conditions.push(detail.item.name);
+            if (detail.min_happiness) conditions.push(`亲密度${detail.min_happiness}`);
+            if (detail.time_of_day) conditions.push(detail.time_of_day);
+            if (detail.known_move) conditions.push(`学会${detail.known_move.name}`);
+            if (detail.held_item) conditions.push(`持有${detail.held_item.name}`);
+            if (detail.location) conditions.push(`在${detail.location.name}`);
+            if (detail.needs_overworld_rain) conditions.push('下雨时');
+            
+            evolutionInfo.condition = conditions.join(', ') || '等级提升';
+        }
+        
+        result.push(evolutionInfo);
+        
+        // 递归处理下一个进化阶段
+        if (node.evolves_to && node.evolves_to.length > 0) {
+            for (const nextNode of node.evolves_to) {
+                traverseChain(nextNode, stage + 1);
+            }
+        }
+    }
+    
+    traverseChain(chain);
+    return result;
+}
+
+// 渲染进化链HTML
+function renderEvolutionChainHTML(chain) {
+    if (!chain || chain.length === 0) {
+        return '<p class="no-evolution">该宝可梦没有进化链</p>';
+    }
+    
+    let html = '<div class="evolution-stages">';
+    
+    for (let i = 0; i < chain.length; i++) {
+        const pokemon = chain[i];
+        
+        // 宝可梦信息
+        html += `
+            <div class="evolution-stage">
+                <div class="evolution-pokemon">
+                    <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${pokemon.id}.png" 
+                         alt="${pokemon.name}" 
+                         class="evolution-sprite"
+                         onerror="this.src='../assets/images/placeholder.png'">
+                    <div class="evolution-name">${pokemon.name}</div>
+                </div>
+        `;
+        
+        // 添加进化条件（如果不是最后一个）
+        if (i < chain.length - 1 && pokemon.condition) {
+            html += `
+                <div class="evolution-arrow">
+                    <span class="arrow">→</span>
+                    <span class="evolution-condition">${pokemon.condition}</span>
+                </div>
+            `;
+        }
+        
+        html += '</div>';
+    }
+    
+    html += '</div>';
+    return html;
 }
 
 function renderRadarChart(stats) {
