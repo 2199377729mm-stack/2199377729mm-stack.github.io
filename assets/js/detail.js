@@ -506,21 +506,26 @@ function renderChartSection(highlighted = false) {
 }
 
 function renderBreedingSection(highlighted = false) {
+    // 从 currentPokemon 中获取培育信息
+    const eggGroups = currentPokemon.eggGroups || currentPokemon['eggGroups'] || '未知';
+    const eggCycles = currentPokemon.eggCycles || currentPokemon['eggCycles'] || '未知';
+    const gender = currentPokemon.gender || currentPokemon['gender'] || '未知';
+    
     return `
         <div class="detail-section ${highlighted ? 'highlighted' : ''}">
             <h2>培育信息</h2>
             <div class="breeding-info">
                 <div class="breeding-item">
                     <label>蛋组</label>
-                    <div class="value">未知</div>
+                    <div class="value">${eggGroups}</div>
                 </div>
                 <div class="breeding-item">
                     <label>孵化步数</label>
-                    <div class="value">约5,120步</div>
+                    <div class="value">${eggCycles}</div>
                 </div>
                 <div class="breeding-item">
                     <label>性别比例</label>
-                    <div class="value">♂ 50% / ♀ 50%</div>
+                    <div class="value">${gender}</div>
                 </div>
             </div>
         </div>
