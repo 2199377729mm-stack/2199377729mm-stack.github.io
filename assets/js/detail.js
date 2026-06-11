@@ -606,7 +606,10 @@ function parseEvolutionChain(chain) {
         if (!node) return;
         
         const pokemonName = node.species.name;
-        const pokemonId = node.species.url.split('/').slice(-2, -1)[0];
+        const pokemonUrl = node.species.url;
+        const pokemonId = pokemonUrl.split('/').slice(-2, -1)[0];
+        
+        console.log(`Parsing evolution: ${pokemonName}, URL: ${pokemonUrl}, ID: ${pokemonId}`);
         
         const evolutionInfo = {
             name: pokemonName,
