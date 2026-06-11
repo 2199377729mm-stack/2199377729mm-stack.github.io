@@ -663,7 +663,7 @@ function renderEvolutionChainHTML(chain) {
         // 宝可梦信息
         html += `
             <div class="evolution-stage">
-                <div class="evolution-pokemon">
+                <div class="evolution-pokemon clickable" onclick="navigateToPokemonDetail(${pokemon.id})">
                     <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${pokemon.id}.png" 
                          alt="${pokemon.name}" 
                          class="evolution-sprite"
@@ -687,6 +687,12 @@ function renderEvolutionChainHTML(chain) {
     
     html += '</div>';
     return html;
+}
+
+// 跳转到宝可梦详情页
+function navigateToPokemonDetail(pokemonId) {
+    console.log('Navigating to Pokemon detail:', pokemonId);
+    window.location.href = `detail.html?id=${pokemonId}`;
 }
 
 function renderRadarChart(stats) {

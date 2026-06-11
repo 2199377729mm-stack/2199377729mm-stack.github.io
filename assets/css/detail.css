@@ -183,6 +183,18 @@
     background: #f8f8f8;
     border-radius: 15px;
     min-width: 100px;
+    cursor: default;
+}
+
+.evolution-pokemon.clickable {
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.evolution-pokemon.clickable:hover {
+    background: #e8e8e8;
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .evolution-sprite {
