@@ -184,11 +184,24 @@ function getAllPokemon() {
 }
 
 function getPokemonById(id) {
-    return pokemonData.find(p => p.id === id || p.pokedexNumber === id || p.pokemon === id);
+    // 支持通过名称、ID、pokedexNumber查找
+    const searchId = String(id).trim();
+    return pokemonData.find(p => 
+        String(p.id).toLowerCase() === searchId.toLowerCase() || 
+        String(p.pokedexNumber).toLowerCase() === searchId.toLowerCase() || 
+        String(p.pokemon).toLowerCase() === searchId.toLowerCase()
+    );
 }
 
 function getPokemonByNumber(num) {
-    return pokemonData.find(p => p.id === num || p.pokedexNumber === num || p.pokemon === num || p.rowId == num);
+    // 支持通过名称、ID、pokedexNumber、rowId查找
+    const searchNum = String(num).trim();
+    return pokemonData.find(p => 
+        String(p.id).toLowerCase() === searchNum.toLowerCase() || 
+        String(p.pokedexNumber).toLowerCase() === searchNum.toLowerCase() || 
+        String(p.pokemon).toLowerCase() === searchNum.toLowerCase() || 
+        String(p.rowId) === searchNum
+    );
 }
 
 function generateSampleData() {
