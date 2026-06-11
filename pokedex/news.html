@@ -22,7 +22,7 @@
         
         .news-header {
             text-align: center;
-            margin-bottom: 40px;
+            margin-bottom: 30px;
         }
         
         .news-header h1 {
@@ -35,6 +35,52 @@
         .news-header p {
             color: #aaa;
             font-size: 1.1rem;
+        }
+        
+        .header-actions {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            align-items: center;
+            margin-bottom: 30px;
+        }
+        
+        .refresh-btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            background: rgba(255, 203, 5, 0.2);
+            color: #ffcb05;
+            padding: 10px 20px;
+            border-radius: 8px;
+            border: none;
+            cursor: pointer;
+            font-size: 0.95rem;
+            transition: all 0.3s ease;
+        }
+        
+        .refresh-btn:hover:not(:disabled) {
+            background: rgba(255, 203, 5, 0.3);
+            transform: translateY(-2px);
+        }
+        
+        .refresh-btn:disabled {
+            opacity: 0.5;
+            cursor: not-allowed;
+        }
+        
+        .refresh-btn.refreshing {
+            animation: pulse 1s infinite;
+        }
+        
+        @keyframes pulse {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0.5; }
+        }
+        
+        .last-updated {
+            color: #888;
+            font-size: 0.9rem;
         }
         
         .news-list {
@@ -143,6 +189,24 @@
             transform: translateX(-3px);
         }
         
+        .toast {
+            position: fixed;
+            bottom: 30px;
+            left: 50%;
+            transform: translateX(-50%);
+            background: rgba(0, 0, 0, 0.8);
+            color: #fff;
+            padding: 12px 24px;
+            border-radius: 8px;
+            opacity: 0;
+            transition: opacity 0.3s;
+            z-index: 1000;
+        }
+        
+        .toast.show {
+            opacity: 1;
+        }
+        
         @media (max-width: 600px) {
             .news-header h1 {
                 font-size: 1.8rem;
@@ -161,6 +225,11 @@
                 gap: 8px;
                 text-align: left;
             }
+            
+            .header-actions {
+                flex-direction: column;
+                gap: 10px;
+            }
         }
     </style>
 </head>
@@ -175,13 +244,24 @@
             <p>来自 Serebii.net 的最新消息</p>
         </div>
         
+        <div class="header-actions">
+            <button id="refresh-btn" class="refresh-btn" onclick="refreshNews()">
+                🔄 刷新资讯
+            </button>
+            <span id="last-updated" class="last-updated">最后更新：未知</span>
+        </div>
+        
         <div id="news-list" class="news-list">
             <div class="loading">加载中</div>
         </div>
     </div>
     
+    <div id="toast" class="toast"></div>
+    
     <script src="../assets/js/modules/rssParser.js"></script>
     <script>
+        let isRefreshing = false;
+        
         async function loadNews() {
             const newsList = document.getElementById('news-list');
             
@@ -192,6 +272,10 @@
                     newsList.innerHTML = '<p style="text-align: center; color: #aaa; padding: 40px;">暂无资讯</p>';
                     return;
                 }
+                
+                // 更新最后更新时间
+                const lastUpdated = localStorage.getItem('newsLastUpdated') || '未知';
+                document.getElementById('last-updated').textContent = `最后更新：${lastUpdated}`;
                 
                 newsList.innerHTML = news.map(item => `
                     <article class="news-card">
@@ -210,6 +294,52 @@
                 console.error('Failed to load news:', error);
                 newsList.innerHTML = '<p style="text-align: center; color: #ff6b6b; padding: 40px;">加载资讯失败，请稍后重试</p>';
             }
+        }
+        
+        async function refreshNews() {
+            if (isRefreshing) return;
+            
+            isRefreshing = true;
+            const btn = document.getElementById('refresh-btn');
+            btn.disabled = true;
+            btn.classList.add('refreshing');
+            btn.innerHTML = '🔄 刷新中...';
+            
+            try {
+                // 尝试从外部源获取最新资讯
+                const freshNews = await fetchFreshNews();
+                
+                if (freshNews && freshNews.length > 0) {
+                    // 更新本地存储
+                    localStorage.setItem('cachedNews', JSON.stringify(freshNews));
+                    localStorage.setItem('newsLastUpdated', new Date().toLocaleString('zh-CN'));
+                    
+                    // 重新加载显示
+                    await loadNews();
+                    
+                    showToast('✅ 资讯已更新！');
+                } else {
+                    showToast('⚠️ 暂无新资讯或获取失败');
+                }
+            } catch (error) {
+                console.error('Failed to refresh news:', error);
+                showToast('❌ 刷新失败，请稍后重试');
+            } finally {
+                isRefreshing = false;
+                btn.disabled = false;
+                btn.classList.remove('refreshing');
+                btn.innerHTML = '🔄 刷新资讯';
+            }
+        }
+        
+        function showToast(message) {
+            const toast = document.getElementById('toast');
+            toast.textContent = message;
+            toast.classList.add('show');
+            
+            setTimeout(() => {
+                toast.classList.remove('show');
+            }, 3000);
         }
         
         loadNews();
