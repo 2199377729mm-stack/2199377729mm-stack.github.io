@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>宝可梦资讯 - 宝可梦档案馆</title>
+    <link rel="stylesheet" href="assets/css/common.css">
+    <style>
+        .news-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+
+        .news-header {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        .news-header h1 {
+            font-size: 2.5rem;
+            color: #e3350d;
+            margin-bottom: 10px;
+        }
+
+        .news-header p {
+            color: #666;
+            font-size: 1.1rem;
+        }
+
+        .news-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 24px;
+        }
+
+        .news-card {
+            background: white;
+            border-radius: 12px;
+            padding: 24px;
+            box-shadow: 0 2px 12px rgba(0, 0, 0, 0.1);
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+
+        .news-card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+        }
+
+        .news-logo {
+            font-size: 3rem;
+            margin-bottom: 16px;
+        }
+
+        .news-card h3 {
+            font-size: 1.3rem;
+            color: #333;
+            margin-bottom: 12px;
+        }
+
+        .news-card p {
+            color: #666;
+            line-height: 1.6;
+            margin-bottom: 16px;
+        }
+
+        .news-features {
+            list-style: none;
+            padding: 0;
+            margin-bottom: 16px;
+        }
+
+        .news-features li {
+            padding: 6px 0;
+            color: #555;
+            font-size: 0.9rem;
+        }
+
+        .news-features li::before {
+            content: '✓';
+            color: #4CAF50;
+            margin-right: 8px;
+        }
+
+        .news-link {
+            display: inline-block;
+            padding: 10px 20px;
+            background: #e3350d;
+            color: white;
+            text-decoration: none;
+            border-radius: 6px;
+            font-weight: bold;
+            transition: background 0.2s;
+        }
+
+        .news-link:hover {
+            background: #c92a09;
+        }
+
+        .back-link {
+            display: inline-block;
+            margin-bottom: 20px;
+            color: #e3350d;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .back-link:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <span>🎮</span>
+                <span>宝可梦档案馆</span>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">首页</a></li>
+                    <li><a href="browse/generation.html">世代</a></li>
+                    <li><a href="browse/type.html">属性</a></li>
+                    <li><a href="browse/category.html">分类</a></li>
+                    <li><a href="user/collection.html">我的收藏</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="news-container">
+            <a href="index.html" class="back-link">← 返回首页</a>
+            
+            <div class="news-header">
+                <h1>📰 宝可梦资讯</h1>
+                <p>探索宝可梦世界的最新动态和资讯</p>
+            </div>
+
+            <div class="news-grid">
+                <div class="news-card">
+                    <div class="news-logo">🌐</div>
+                    <h3>Serebii.net</h3>
+                    <p>最权威的宝可梦资讯网站之一，提供全面的游戏攻略、图鉴数据和最新动态。</p>
+                    <ul class="news-features">
+                        <li>全世代宝可梦图鉴</li>
+                        <li>游戏攻略和秘籍</li>
+                        <li>最新游戏资讯</li>
+                        <li>活动和赛事信息</li>
+                    </ul>
+                    <a href="https://www.serebii.net" target="_blank" class="news-link">访问网站</a>
+                </div>
+
+                <div class="news-card">
+                    <div class="news-logo">📚</div>
+                    <h3>Bulbapedia</h3>
+                    <p>宝可梦百科全书，收录了所有宝可梦、招式、道具的详细资料。</p>
+                    <ul class="news-features">
+                        <li>完整的宝可梦资料</li>
+                        <li>招式和道具数据库</li>
+                        <li>游戏机制详解</li>
+                        <li>动画和漫画资讯</li>
+                    </ul>
+                    <a href="https://bulbapedia.bulbagarden.net" target="_blank" class="news-link">访问网站</a>
+                </div>
+
+                <div class="news-card">
+                    <div class="news-logo">🎮</div>
+                    <h3>IGN Pokémon</h3>
+                    <p>专业游戏媒体IGN的宝可梦专栏，提供游戏评测、新闻资讯和深度分析。</p>
+                    <ul class="news-features">
+                        <li>游戏评测和评分</li>
+                        <li>最新新闻资讯</li>
+                        <li>游戏预告和前瞻</li>
+                        <li>视频内容和攻略</li>
+                    </ul>
+                    <a href="https://www.ign.com/games/pokemon" target="_blank" class="news-link">访问网站</a>
+                </div>
+
+                <div class="news-card">
+                    <div class="news-logo">🎯</div>
+                    <h3>Pokémon.com</h3>
+                    <p>宝可梦官方网站，获取官方公告、游戏更新和官方活动信息。</p>
+                    <ul class="news-features">
+                        <li>官方公告和新闻</li>
+                        <li>游戏更新信息</li>
+                        <li>官方活动和促销</li>
+                        <li>官方商品和周边</li>
+                    </ul>
+                    <a href="https://www.pokemon.com" target="_blank" class="news-link">访问网站</a>
+                </div>
+
+                <div class="news-card">
+                    <div class="news-logo">💬</div>
+                    <h3>Reddit r/pokemon</h3>
+                    <p>最大的宝可梦社区之一，与全球玩家讨论、分享心得和同人创作。</p>
+                    <ul class="news-features">
+                        <li>玩家社区讨论</li>
+                        <li>同人作品分享</li>
+                        <li>游戏心得交流</li>
+                        <li>最新资讯汇总</li>
+                    </ul>
+                    <a href="https://www.reddit.com/r/pokemon" target="_blank" class="news-link">访问网站</a>
+                </div>
+
+                <div class="news-card">
+                    <div class="news-logo">🇨🇳</div>
+                    <h3>宝可梦中文网</h3>
+                    <p>专注于中文玩家的宝可梦资讯网站，提供本地化内容和社群活动信息。</p>
+                    <ul class="news-features">
+                        <li>中文本地化资讯</li>
+                        <li>国内社群活动</li>
+                        <li>中文攻略翻译</li>
+                        <li>玩家交流社区</li>
+                    </ul>
+                    <a href="https://www.pokemon.com/cn" target="_blank" class="news-link">访问网站</a>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 宝可梦档案馆 | 探索宝可梦世界</p>
+        </div>
+    </footer>
+</body>
+</html>
