@@ -706,7 +706,9 @@ function renderEvolutionChainHTML(chain) {
 
 // 跳转到宝可梦详情页
 function navigateToPokemonDetail(pokemonId) {
-    console.log('Navigating to Pokemon detail:', pokemonId);
+    console.log('=== navigateToPokemonDetail called ===');
+    console.log('Input pokemonId:', pokemonId, 'type:', typeof pokemonId);
+    console.log('Navigating to:', `detail.html?id=${pokemonId}`);
     window.location.href = `detail.html?id=${pokemonId}`;
 }
 
