@@ -468,6 +468,8 @@ function renderDetail() {
     
     setTimeout(() => {
         renderRadarChart(stats);
+        // 加载图鉴信息
+        loadAndDisplayPokedexInfo();
     }, 100);
 }
 
@@ -502,10 +504,10 @@ function renderChartSection(highlighted = false) {
     `;
 }
 
-function renderDescriptionSection(highlighted = false) {
-    const description = currentPokemon.species 
+function renderDescriptionSection(highlighted = false, pokedexDescription = '') {
+    const description = pokedexDescription || (currentPokemon.species 
         ? `${currentPokemon.pokemon}是${currentPokemon.species}。它是一种充满魅力的宝可梦，等待着训练家们的发现！`
-        : '这是一种神秘的宝可梦，关于它的详细信息还在研究中。';
+        : '这是一种神秘的宝可梦，关于它的详细信息还在研究中。');
     
     return `
         <div class="detail-section ${highlighted ? 'highlighted' : ''}">
@@ -513,6 +515,32 @@ function renderDescriptionSection(highlighted = false) {
             <p class="description">${description}</p>
         </div>
     `;
+}
+
+// 异步获取图鉴信息并更新页面
+async function loadAndDisplayPokedexInfo() {
+    const pokemonId = currentPokemon.pokedexNumber || currentPokemon.id;
+    if (!pokemonId) return;
+    
+    try {
+        const description = await getPokedexDescription(pokemonId);
+        if (description) {
+            // 更新图鉴介绍部分
+            const sections = document.querySelectorAll('.detail-section');
+            for (const section of sections) {
+                const h2 = section.querySelector('h2');
+                if (h2 && h2.textContent === '图鉴介绍') {
+                    const descriptionParagraph = section.querySelector('.description');
+                    if (descriptionParagraph) {
+                        descriptionParagraph.textContent = description;
+                    }
+                    break;
+                }
+            }
+        }
+    } catch (error) {
+        console.error('Failed to load pokedex info:', error);
+    }
 }
 
 function renderRadarChart(stats) {
