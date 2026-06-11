@@ -427,8 +427,6 @@ function renderDetail() {
     const chartPriority = sections.find(s => s.id === 'chart')?.priority;
     sectionsHTML += renderChartSection(chartPriority);
     
-    sectionsHTML += renderBreedingSection(sections.find(s => s.id === 'breeding')?.priority);
-    
     sectionsHTML += renderDescriptionSection(sections.find(s => s.id === 'description')?.priority);
     
     // 获取中文名称
