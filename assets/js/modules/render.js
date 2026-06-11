@@ -385,6 +385,14 @@ function renderPokemonCard(pokemon, showRecommendation = false, recommendationRe
     const weight = pokemon.weightKg || pokemon.weight || '';
     const abilities = pokemon.abilities || '';
     
+    // 获取培育信息
+    const eggGroups = pokemon.eggGroups || '';
+    const eggCycles = pokemon.eggCycles || '';
+    const gender = pokemon.gender || '';
+    
+    // 调试：检查数据是否正确获取
+    console.log('Pokemon:', pokemon.pokemon || pokemon.name, '- 培育信息:', { eggGroups, eggCycles, gender });
+    
     // 检查是否已收藏
     const pokemonId = pokemon.pokedexNumber || pokemon.id;
     const isFavorite = typeof isCollected === 'function' && isCollected(pokemonId);
@@ -405,6 +413,13 @@ function renderPokemonCard(pokemon, showRecommendation = false, recommendationRe
             </div>
         ` : ''}
         ${abilities ? `<div class="abilities">特性：${abilities}</div>` : ''}
+        ${eggGroups || eggCycles || gender ? `
+            <div class="breeding-info">
+                ${gender ? `<span class="breeding-item">性别比例：${gender}</span>` : ''}
+                ${eggGroups ? `<span class="breeding-item">蛋组：${eggGroups}</span>` : ''}
+                ${eggCycles ? `<span class="breeding-item">孵化步数：${eggCycles}</span>` : ''}
+            </div>
+        ` : ''}
         ${recommendationHTML}
     `;
     
