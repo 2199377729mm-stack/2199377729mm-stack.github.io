@@ -370,6 +370,10 @@ async function initDetail() {
     
     console.log('Found currentPokemon:', currentPokemon);
     
+    if (currentPokemon) {
+        console.log('Current Pokemon name:', currentPokemon.pokemon, 'ID:', currentPokemon.id, 'pokedexNumber:', currentPokemon.pokedexNumber);
+    }
+    
     if (!currentPokemon) {
         document.getElementById('detail-container').innerHTML = `
             <div style="text-align: center; padding: 60px;">
