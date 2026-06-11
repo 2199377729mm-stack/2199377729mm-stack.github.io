@@ -197,7 +197,8 @@ async function getPokedexDescriptionInChinese(pokemonId) {
     }
     
     // 如果是英文，翻译成中文
-    if (description && /^[a-zA-Z\s.,!'()-]+$/.test(description.substring(0, 100))) {
+    // 检查是否包含英文字母（如果包含中文字符则跳过）
+    if (description && /[a-zA-Z]/.test(description) && !/[\u4e00-\u9fa5]/.test(description)) {
         console.log('Description is in English, translating to Chinese...');
         const translated = await translateText(description, 'en', 'zh-CN');
         return translated;
