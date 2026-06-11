@@ -359,12 +359,16 @@ async function initDetail() {
     const urlParams = new URLSearchParams(window.location.search);
     const pokemonId = urlParams.get('id');
     
+    console.log('initDetail called, pokemonId from URL:', pokemonId, 'type:', typeof pokemonId);
+    
     if (!pokemonId) {
         window.location.href = '../index.html';
         return;
     }
     
     currentPokemon = getPokemonByNumber(pokemonId) || getPokemonById(pokemonId);
+    
+    console.log('Found currentPokemon:', currentPokemon);
     
     if (!currentPokemon) {
         document.getElementById('detail-container').innerHTML = `
