@@ -127,8 +127,89 @@ async function getMultiplePokedexDescriptions(pokemonIds) {
     return results;
 }
 
+// 翻译缓存
+const translationCache = new Map();
+
+/**
+ * 使用MyMemory API翻译文本
+ * @param {string} text - 要翻译的文本
+ * @param {string} fromLang - 源语言代码
+ * @param {string} toLang - 目标语言代码
+ * @returns {Promise<string>} - 翻译后的文本
+ */
+async function translateText(text, fromLang = 'en', toLang = 'zh-CN') {
+    if (!text || text.trim() === '') return '';
+    
+    // 检查缓存
+    const cacheKey = `${text}_${fromLang}_${toLang}`;
+    if (translationCache.has(cacheKey)) {
+        console.log('Using cached translation');
+        return translationCache.get(cacheKey);
+    }
+    
+    try {
+        console.log(`Translating text: ${text.substring(0, 50)}...`);
+        
+        // 使用MyMemory免费翻译API
+        const encodedText = encodeURIComponent(text);
+        const response = await fetch(
+            `https://api.mymemory.translated.net/get?q=${encodedText}&langpair=${fromLang}|${toLang}`,
+            { method: 'GET' }
+        );
+        
+        if (!response.ok) {
+            throw new Error(`Translation API error: ${response.status}`);
+        }
+        
+        const data = await response.json();
+        
+        if (data.responseStatus === 200) {
+            const translatedText = data.responseData.translatedText;
+            console.log(`Translation successful: ${translatedText.substring(0, 50)}...`);
+            
+            // 缓存结果
+            translationCache.set(cacheKey, translatedText);
+            
+            return translatedText;
+        } else {
+            console.warn('Translation API returned error:', data.responseStatus);
+            return text; // 如果翻译失败，返回原文
+        }
+    } catch (error) {
+        console.error('Translation error:', error);
+        return text; // 如果出错，返回原文
+    }
+}
+
+/**
+ * 获取宝可梦的图鉴描述（自动翻译为中文）
+ * @param {number|string} pokemonId - 宝可梦ID或名称
+ * @returns {Promise<string>} - 中文图鉴描述
+ */
+async function getPokedexDescriptionInChinese(pokemonId) {
+    // 首先尝试获取中文描述
+    const description = await getPokedexDescription(pokemonId);
+    
+    // 如果已经是中文（包含中文字符），直接返回
+    if (/[\u4e00-\u9fa5]/.test(description)) {
+        console.log('Description is already in Chinese');
+        return description;
+    }
+    
+    // 如果是英文，翻译成中文
+    if (description && /^[a-zA-Z\s.,!'()-]+$/.test(description.substring(0, 100))) {
+        console.log('Description is in English, translating to Chinese...');
+        const translated = await translateText(description, 'en', 'zh-CN');
+        return translated;
+    }
+    
+    return description;
+}
+
 // 导出函数
 window.getPokedexDescription = getPokedexDescription;
 window.getPokemonInfo = getPokemonInfo;
 window.getEvolutionChain = getEvolutionChain;
 window.getMultiplePokedexDescriptions = getMultiplePokedexDescriptions;
+window.translateText = translateText;
+window.getPokedexDescriptionInChinese = getPokedexDescriptionInChinese;

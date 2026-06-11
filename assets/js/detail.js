@@ -528,7 +528,7 @@ async function loadAndDisplayPokedexInfo() {
     }
     
     try {
-        const description = await getPokedexDescription(pokemonId);
+        const description = await getPokedexDescriptionInChinese(pokemonId);
         console.log('Got description:', description);
         
         if (description) {
