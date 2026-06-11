@@ -12,10 +12,12 @@ const pokedexCache = new Map();
 async function getPokedexDescription(pokemonId) {
     // 检查缓存
     if (pokedexCache.has(pokemonId)) {
+        console.log(`Using cached description for Pokemon ${pokemonId}`);
         return pokedexCache.get(pokemonId);
     }
 
     try {
+        console.log(`Fetching pokedex description for Pokemon ${pokemonId}...`);
         const response = await fetch(`${POKEAPI_BASE_URL}/pokemon-species/${pokemonId}`);
         
         if (!response.ok) {
@@ -23,6 +25,7 @@ async function getPokedexDescription(pokemonId) {
         }
 
         const data = await response.json();
+        console.log(`Received data for Pokemon ${pokemonId}:`, data.name);
         
         // 查找中文或英文的图鉴描述
         let description = '';
@@ -39,12 +42,16 @@ async function getPokedexDescription(pokemonId) {
 
         if (chineseEntry) {
             description = chineseEntry.flavor_text;
+            console.log(`Found Chinese description for Pokemon ${pokemonId}`);
         } else if (englishEntry) {
             description = englishEntry.flavor_text;
+            console.log(`Found English description for Pokemon ${pokemonId}`);
         }
 
         // 清理文本格式（移除换行符等）
         description = description.replace(/\n/g, ' ').replace(/\f/g, ' ').trim();
+        
+        console.log(`Description for Pokemon ${pokemonId}: ${description.substring(0, 50)}...`);
         
         // 缓存结果
         pokedexCache.set(pokemonId, description);

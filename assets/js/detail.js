@@ -520,19 +520,30 @@ function renderDescriptionSection(highlighted = false, pokedexDescription = '') 
 // 异步获取图鉴信息并更新页面
 async function loadAndDisplayPokedexInfo() {
     const pokemonId = currentPokemon.pokedexNumber || currentPokemon.id;
-    if (!pokemonId) return;
+    console.log('loadAndDisplayPokedexInfo called, pokemonId:', pokemonId, 'currentPokemon:', currentPokemon);
+    
+    if (!pokemonId) {
+        console.warn('No pokemon ID found, skipping pokedex info load');
+        return;
+    }
     
     try {
         const description = await getPokedexDescription(pokemonId);
+        console.log('Got description:', description);
+        
         if (description) {
             // 更新图鉴介绍部分
             const sections = document.querySelectorAll('.detail-section');
+            console.log('Found sections:', sections.length);
+            
             for (const section of sections) {
                 const h2 = section.querySelector('h2');
                 if (h2 && h2.textContent === '图鉴介绍') {
                     const descriptionParagraph = section.querySelector('.description');
+                    console.log('Found description paragraph:', descriptionParagraph);
                     if (descriptionParagraph) {
                         descriptionParagraph.textContent = description;
+                        console.log('Successfully updated description');
                     }
                     break;
                 }
