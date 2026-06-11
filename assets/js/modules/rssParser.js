@@ -4,107 +4,41 @@ const RSS_FEEDS = {
     serebiiRss: 'https://www.serebii.net/news.rss'
 };
 
-// CORS 代理服务
-const CORS_PROXY = 'https://api.allorigins.win/raw?url=';
+// 本地资讯数据文件路径
+const LOCAL_NEWS_FILE = '../assets/js/data/news.json';
 
 /**
- * 解析 RSS XML 数据
- * @param {string} xmlString - RSS XML 字符串
- * @returns {Array} - 资讯列表
+ * 加载本地资讯数据
+ * @returns {Promise<Array>} - 资讯列表
  */
-function parseRSS(xmlString) {
-    const parser = new DOMParser();
-    const xmlDoc = parser.parseFromString(xmlString, 'application/xml');
-    
-    const items = xmlDoc.querySelectorAll('item');
-    const newsItems = [];
-    
-    items.forEach(item => {
-        const title = item.querySelector('title')?.textContent || '';
-        const link = item.querySelector('link')?.textContent || '';
-        const description = item.querySelector('description')?.textContent || '';
-        const pubDate = item.querySelector('pubDate')?.textContent || '';
-        
-        newsItems.push({
-            title: title.trim(),
-            link: link.trim(),
-            description: description.trim(),
-            pubDate: formatDate(pubDate),
-            source: 'Serebii.net'
-        });
-    });
-    
-    return newsItems;
-}
-
-/**
- * 格式化日期
- * @param {string} dateString - 原始日期字符串
- * @returns {string} - 格式化后的日期
- */
-function formatDate(dateString) {
-    if (!dateString) return '';
-    
+async function loadLocalNews() {
     try {
-        const date = new Date(dateString);
-        const options = { year: 'numeric', month: 'short', day: 'numeric' };
-        return date.toLocaleDateString('zh-CN', options);
-    } catch {
-        return dateString;
+        console.log('Loading local news data...');
+        const response = await fetch(LOCAL_NEWS_FILE);
+        
+        if (response.ok) {
+            const data = await response.json();
+            console.log(`Loaded ${data.news.length} news items from local file`);
+            return data.news;
+        }
+    } catch (error) {
+        console.error('Failed to load local news:', error);
     }
+    
+    return [];
 }
 
 /**
- * 获取 Serebii.net 的最新资讯
+ * 获取宝可梦资讯（优先使用本地数据）
  * @returns {Promise<Array>} - 资讯列表
  */
 async function getPokemonNews() {
-    // 默认返回模拟数据
-    let newsItems = getMockNews();
+    // 优先加载本地数据
+    let newsItems = await loadLocalNews();
     
-    try {
-        console.log('Fetching Pokemon news from Serebii.net...');
-        
-        // 使用多个 CORS 代理备选
-        const proxies = [
-            'https://api.allorigins.win/raw?url=',
-            'https://corsproxy.io/?url=',
-            'https://cors-anywhere.herokuapp.com/'
-        ];
-        
-        let success = false;
-        
-        for (let i = 0; i < proxies.length && !success; i++) {
-            try {
-                console.log(`Trying proxy ${i + 1}: ${proxies[i]}`);
-                const response = await fetch(proxies[i] + encodeURIComponent(RSS_FEEDS.serebiiRss));
-                
-                if (response.ok) {
-                    const xmlString = await response.text();
-                    console.log('Received XML data:', xmlString.substring(0, 200) + '...');
-                    
-                    const parsedItems = parseRSS(xmlString);
-                    
-                    // 如果解析到有效数据，使用真实数据
-                    if (parsedItems.length > 0) {
-                        newsItems = parsedItems;
-                        success = true;
-                        console.log(`Successfully fetched ${newsItems.length} news items from Serebii.net`);
-                    } else {
-                        console.log('Parsed empty result, using mock data');
-                    }
-                }
-            } catch (proxyError) {
-                console.warn(`Proxy ${i + 1} failed:`, proxyError.message);
-            }
-        }
-        
-    } catch (error) {
-        console.error('Error fetching news:', error);
-    }
-    
-    // 确保至少返回模拟数据
+    // 如果本地数据为空，使用模拟数据
     if (!newsItems || newsItems.length === 0) {
+        console.log('Local news not available, using mock data');
         newsItems = getMockNews();
     }
     

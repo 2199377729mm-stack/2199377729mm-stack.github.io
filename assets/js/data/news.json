@@ -1,0 +1,69 @@
+{
+    "lastUpdated": "2024-12-15",
+    "news": [
+        {
+            "id": 1,
+            "title": "《宝可梦 朱/紫》DLC「零之秘宝」第二弹「蓝之圆盘」现已发布",
+            "description": "探索蓝莓学园的神秘故事，遇见新的传说宝可梦！本次更新包含大量新宝可梦、新地图和新剧情。",
+            "link": "https://www.serebii.net",
+            "pubDate": "2024年12月14日",
+            "source": "Serebii.net"
+        },
+        {
+            "id": 2,
+            "title": "宝可梦卡牌游戏「猩红与紫罗兰」扩展包即将发售",
+            "description": "全新扩展包包含195张卡牌，包括大量稀有闪卡和全新的VSTAR卡牌。",
+            "link": "https://www.serebii.net",
+            "pubDate": "2024年12月10日",
+            "source": "Serebii.net"
+        },
+        {
+            "id": 3,
+            "title": "宝可梦官方公布全新动画系列《宝可梦 地平线》详情",
+            "description": "新动画将以莉可和罗伊为主角，展开全新的冒险故事，敬请期待！",
+            "link": "https://www.serebii.net",
+            "pubDate": "2024年12月5日",
+            "source": "Serebii.net"
+        },
+        {
+            "id": 4,
+            "title": "2024年全球宝可梦锦标赛即将开幕",
+            "description": "来自世界各地的顶尖训练家齐聚夏威夷，争夺世界冠军宝座！",
+            "link": "https://www.serebii.net",
+            "pubDate": "2024年11月28日",
+            "source": "Serebii.net"
+        },
+        {
+            "id": 5,
+            "title": "宝可梦 Sleep 推出冬季更新",
+            "description": "新增睡眠分析功能和冬季限定宝可梦，让你的睡眠更加有趣！",
+            "link": "https://www.serebii.net",
+            "pubDate": "2024年11月20日",
+            "source": "Serebii.net"
+        },
+        {
+            "id": 6,
+            "title": "《宝可梦 GO》万圣节活动圆满结束",
+            "description": "本次活动吸引了超过1亿玩家参与，捕获了大量幽灵属性宝可梦。",
+            "link": "https://www.serebii.net",
+            "pubDate": "2024年11月5日",
+            "source": "Serebii.net"
+        },
+        {
+            "id": 7,
+            "title": "全新宝可梦「铁斑叶」和「走鲸」正式公布",
+            "description": "来自帕底亚地区的古代和未来形态宝可梦，拥有独特的属性组合！",
+            "link": "https://www.serebii.net",
+            "pubDate": "2024年10月25日",
+            "source": "Serebii.net"
+        },
+        {
+            "id": 8,
+            "title": "宝可梦中心推出限定周边商品",
+            "description": "包含最新宝可梦毛绒玩具、卡牌套装和限定周边，限时发售！",
+            "link": "https://www.serebii.net",
+            "pubDate": "2024年10月15日",
+            "source": "Serebii.net"
+        }
+    ]
+}
